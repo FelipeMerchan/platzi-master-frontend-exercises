@@ -1,0 +1,16 @@
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="999px" height="999px" viewBox="0 0 999 999" style="overflow:scroll;enable-background:new 0 0 999 999;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#235797;}
+	.st1{fill:#FFFFFF;}
+</style>
+<defs>
+</defs>
+<g>
+	<circle class="st0" cx="499.5" cy="499.5" r="499.5"/>
+	<path class="st1" d="M546.5,342.9h78.3v-94h-78.3c-60.5,0-109.6,49.2-109.6,109.6v47h-62.7v94h62.7v250.6h94V499.5h78.3l15.7-94
+		h-94v-47C530.8,350,538,342.9,546.5,342.9z"/>
+</g>
+</svg>
