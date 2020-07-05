@@ -1,0 +1,18 @@
+.Header {
+  border-bottom: 2px solid var(--black-color);
+}
+
+.Header {
+  padding: var(--space) 0;
+  text-align: center;
+}
+
+.subheading {
+  margin-bottom: var(--space);
+  border-top: 2px solid var(--black-color);
+}
+
+.subheading h2 {
+  font-family: var(--font-1);
+  font-size: 1rem;
+}

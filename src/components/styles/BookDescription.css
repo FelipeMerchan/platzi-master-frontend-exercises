@@ -1,0 +1,13 @@
+.BookDescription__title {
+  margin: var(--space) 0;
+}
+
+.BookDescription__text {
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 1024px) {
+  .BookDescription {
+    width: 50%;
+  }
+}

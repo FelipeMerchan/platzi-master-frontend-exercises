@@ -1,0 +1,23 @@
+.BookData__title {
+  margin: var(--space) 0;
+}
+
+.BookData__list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.BookData__list li {
+  display: inline;
+}
+
+@media screen and (min-width: 767px) {
+  .BookData__list {
+    padding-left: var(--space-2);
+    list-style-type: unset;
+  }
+
+  .BookData__list li {
+    display: list-item;
+  }
+}

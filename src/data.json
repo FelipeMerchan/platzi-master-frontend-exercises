@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "date": "29 de octubre de 2012",
+      "autor": "Ernesto G Bustamante",
+      "comments": 3,
+      "title": "Las bondades de HTML5",
+      "summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "date": "El 26 de octubre de 2012",
+      "autor": "Ernesto G Bustamante",
+      "comments": 21,
+      "title": "HTML5 en dispositivos móviles",
+      "summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "date": "27 de octubre de 2012",
+      "autor": "Ernesto G Bustamante",
+      "comments": 6,
+      "title": "Internet Explorer es una basura",
+      "summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "url": "#"
+    },
+    {
+      "id": 4,
+      "date": "26 de octubre de 2012",
+      "autor": "Ernesto G Bustamante",
+      "comments": 2,
+      "title": "Diseño web en pantallas retina",
+      "summary": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+      "url": "#"
+    }
+  ]
+}

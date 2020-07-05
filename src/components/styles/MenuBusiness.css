@@ -1,0 +1,31 @@
+.MenuBusiness,
+.MenuBusiness ul {
+  display: inherit;
+  height: inherit;
+}
+
+.MenuBusiness {
+  align-self: flex-start;
+}
+
+.MenuBusiness__item {
+  height: inherit;
+  margin-right: var(--space-2);
+  padding: calc(var(--space) / 2);
+  list-style-type: none;
+}
+
+.MenuBusiness__item:last-child {
+  margin-right: 0;
+}
+
+.MenuBusiness__item a {
+  padding: calc(var(--space) / 2) var(--space-2);
+  color: #a6a7a2;
+  text-decoration: none;
+}
+
+.MenuBusiness__item a:hover {
+  color: #ffffff;
+  background-color: var(--actionColor);
+}

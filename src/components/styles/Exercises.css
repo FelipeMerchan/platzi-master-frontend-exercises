@@ -1,0 +1,28 @@
+.Exercises {
+  padding: 60px 0 100px;
+}
+
+.Exercises__title {
+  margin-bottom: var(--space-5);
+  font-size: 40px;
+  font-family: var(--font-4);
+  color: #ffffff;
+}
+
+.ExercisesLists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 100px var(--space-5);
+}
+
+@media screen and (max-width: 768px) {
+  .ExercisesLists {
+    grid-template-columns: 1fr;
+    grid-gap: var(--space-5);
+  }
+
+  .Exercises__title {
+    margin-bottom: var(--space-3);
+    font-size: 32px;
+  }
+}

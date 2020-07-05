@@ -1,0 +1,41 @@
+.RandomPublication {
+  display: flex;
+  padding: var(--space-2);
+  border-radius: var(--border-radius);
+  font-family: var(--font-2);
+  color: var(--typographyColor);
+  background-color: var(--surfaceColor);
+}
+
+.RandomPublication__imageContainer {
+  width: 30%;
+  margin-right: 2%;
+}
+
+.RandomPublication__image {
+  width: 100%;
+}
+
+.RandomPublication__details {
+  width: 68%;
+}
+
+.RandomPublication__text {
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 768px) {
+  .RandomPublication {
+    display: block;
+  }
+
+  .RandomPublication__details,
+  .RandomPublication__imageContainer {
+    width: auto;
+  }
+
+  .RandomPublication__imageContainer {
+    margin-bottom: var(--space);
+    margin-right: 0;
+  }
+}

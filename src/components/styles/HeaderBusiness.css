@@ -1,0 +1,12 @@
+.HeaderBusiness {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid #dfdfdf;
+  font-family: var(--font-3);
+}
+
+.HeaderBusiness__brand {
+  max-width: 250px;
+}

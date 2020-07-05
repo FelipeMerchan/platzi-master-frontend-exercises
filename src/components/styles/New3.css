@@ -1,0 +1,16 @@
+.New3 {
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--black-color);
+}
+
+.New3 > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--space);
+}
+
+.New3 > h3 {
+  margin-bottom: var(--space);
+  font-style: italic;
+  font-size: 1.4rem;
+}

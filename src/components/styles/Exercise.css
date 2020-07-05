@@ -1,0 +1,101 @@
+.Exercise {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-4);
+  color: #ffffff;
+}
+
+.Exercise__imageContainer {
+  height: 440px;
+}
+
+.Exercise__image {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+.Exercise__details {
+  flex-direction: column;
+  padding: var(--space-4);
+  background-color: var(--primaryColorDark-2)
+}
+
+.Exercise__title {
+  margin-bottom: var(--space-2);
+  font-size: 32px;
+}
+
+.Exercise__difficulty {
+  margin-bottom: var(--space-3);
+  font-size: 24px;
+  font-weight: var(--normal);
+}
+
+.Exercise__link {
+  align-self: flex-end;
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: underline;
+  transition: transform .3s ease-out;
+}
+
+.Exercise__link:hover {
+  transform: translateX(10px);
+}
+
+.Exercise__link::after {
+  content: '';
+  display: inline-block;
+  width: 27px;
+  height: 25px;
+  margin-bottom: -4px;
+  margin-left: var(--space-2);
+  background-image: url('../../images/arrows.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Exercise__border {
+  position: absolute;
+  top: 15px;
+  right: -15px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ffffff;
+  transition: transform .3s;
+}
+
+.Exercise:hover .Exercise__border {
+  transform: scale(.98);
+}
+
+@media screen and (max-width: 768px) {
+  .Exercise__details {
+    padding: var(--space-3);
+  }
+
+  .Exercise__title {
+    font-size: 24px;
+  }
+
+  .Exercise__difficulty {
+    font-size: 16px;
+  }
+
+  .Exercise__link {
+    font-size: 16px;
+  }
+
+  .Exercise__link::after {
+    width: 17px;
+    height: 19px;
+    margin-bottom: -4px;
+  }
+
+  .Exercise__border {
+    top: var(--space);
+    right: -10px;
+  }
+}

@@ -1,0 +1,14 @@
+.HeaderHome {
+  position: absolute;
+  padding: var(--space-2) 0;
+}
+
+.HeaderHome__brand {
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .HeaderHome__brand {
+    width: 120px;
+  }
+}

@@ -1,0 +1,14 @@
+.HeaderWebSite {
+  padding-top: var(--space-2);
+  font-family: var(--font-2);
+  color: var(--typographyColor);
+}
+
+.HeaderWebSite__title {
+  font-size: 32px;
+  margin: 0 0 var(--space);
+}
+
+.HeaderWebSite__subtitle {
+  margin: 0 0 var(--space);
+}

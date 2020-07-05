@@ -1,0 +1,191 @@
+:root {
+  /* Colors */
+  --black-color: #333;
+
+  /* Typography */
+  --bold: 700;
+
+  /* Spacing */
+  --space: 10px;
+  --space-2: 20px;
+  --space-3: 30px;
+  --space-4: 40px;
+}
+
+/* ------------------------------------- Globales */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  padding: 0 var(--space-2);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .9;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: .9;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  font-size: .7rem;
+  margin-bottom: var(--space);
+}
+
+hr {
+  border: 1px solid var(--black-color);
+  background-color: var(--black-color);
+  border-radius: 10px;
+}
+
+img {
+  vertical-align: top;
+}
+
+figcaption {
+  font-weight: var(--bold);
+  margin: 5px 0;
+}
+
+/* ------------------------------------- Utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.line-bottom::after,
+.line-top::before {
+  display: block;
+  width: 80px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: var(--space);
+  border-radius: 10px;
+  content: "";
+  background-color: var(--black-color);
+}
+
+.line-bottom::after {
+  margin-top: var(--space);
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+  margin: var(--space) var(--space) 0 0;
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--black-color);
+}
+/* ------------------------------------- Maqueta */
+
+.wrapper,
+.l-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header,
+.subheading {
+  border-bottom: 2px solid var(--black-color);
+}
+
+.header {
+  padding: var(--space) 0;
+  text-align: center;
+}
+
+.subheading {
+  padding-bottom: var(--space);
+  margin-bottom: var(--space);
+}
+
+.subheading h2 {
+  font-size: 1rem;
+}
+
+.l-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 100px;
+}
+
+.column-1,
+.column-2 {
+  padding: 0 calc(var(--space) - 5px);
+  border-right: 2px solid var(--black-color);
+}
+
+.column-1 {
+  grid-column: 1 / 2;
+}
+
+.column-2 {
+  grid-column: 2 / 3;
+}
+
+.notice-2 {
+  padding-bottom: var(--space);
+}
+
+.notice-3,
+.notice-4 {
+  padding: var(--space-2) 0;
+}
+
+.notice-3 > div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: var(--space);
+}
+
+.notice-3 > h3,
+.notice-4 > h3 {
+  margin-bottom: var(--space);
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.notice-4 > div:nth-of-type(1) {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: var(--space);
+}
+
+.notice-4 figure {
+  max-width: 100%;
+}
+
+h5.float-left {
+  font-size: .8rem;
+}
+
+.column-3 {
+  grid-column: 3 / -1;
+  margin-left: calc(var(--space) - 5px);
+  border-top: 2px solid var(--black-color);
+}

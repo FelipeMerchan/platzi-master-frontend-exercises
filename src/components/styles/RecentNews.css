@@ -1,0 +1,22 @@
+.RecentNews {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  margin-right: 5%;
+  font-family: var(--font-3);
+}
+
+.RecentNews___title {
+  margin-bottom: var(--space);
+  padding-bottom: var(--space);
+  border-bottom: 1px solid #dfdfdf;
+  color: #48504d;
+}
+
+
+.RecentNews__text {
+  margin-bottom: var(--space-2);
+  line-height: 1.4;
+  color: #a6a7a2;
+}

@@ -1,0 +1,48 @@
+.MenuWebSite {
+  height: 50px;
+  margin: var(--space) 0 var(--space-x2);
+  overflow: hidden;
+  background-color: var(--backgroundDarkGray);
+  border-radius: var(--border-radius);
+}
+
+.MenuWebSite ul {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.MenuWebSite ul li {
+  flex: 1;
+  height: inherit;
+  line-height: 50px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.MenuWebSite ul li a {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--redColor);
+}
+
+.MenuWebSite ul li a:hover,
+.MenuWebSite ul li a:active {
+  color: #ffffff;
+  background-color: var(--redColor);
+}
+
+@media screen and (max-width: 480px) {
+  .MenuWebSite {
+    height: auto;
+  }
+
+  .MenuWebSite ul{
+    display: initial;
+  }
+}

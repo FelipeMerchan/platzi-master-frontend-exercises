@@ -1,0 +1,13 @@
+@media screen and (min-width: 767px) {
+  .CourseHome {
+    display: grid;
+    grid-template-columns: minmax(120px, 220px) 1fr;
+    grid-column-gap: var(--space-2);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .CourseHome > div:nth-of-type(2) {
+    display: flex;
+  }
+}

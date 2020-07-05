@@ -1,0 +1,16 @@
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="60px" height="131px" viewBox="0 0 60 131" style="overflow:scroll;enable-background:new 0 0 60 131;"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4D4C4F;}
+</style>
+<defs>
+</defs>
+<g>
+	<circle class="st0" cx="15" cy="15" r="15"/>
+	<circle class="st0" cx="45" cy="45" r="15"/>
+	<circle class="st0" cx="15" cy="116" r="15"/>
+	<circle class="st0" cx="45" cy="86" r="15"/>
+</g>
+</svg>
