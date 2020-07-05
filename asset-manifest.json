@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/platzi-master-frontend-exercises/static/css/main.e6c3df09.chunk.css",
-    "main.js": "/platzi-master-frontend-exercises/static/js/main.690d9ca3.chunk.js",
-    "main.js.map": "/platzi-master-frontend-exercises/static/js/main.690d9ca3.chunk.js.map",
+    "main.js": "/platzi-master-frontend-exercises/static/js/main.037b6d01.chunk.js",
+    "main.js.map": "/platzi-master-frontend-exercises/static/js/main.037b6d01.chunk.js.map",
     "runtime-main.js": "/platzi-master-frontend-exercises/static/js/runtime-main.f94e12dd.js",
     "runtime-main.js.map": "/platzi-master-frontend-exercises/static/js/runtime-main.f94e12dd.js.map",
     "static/js/2.7513f9f6.chunk.js": "/platzi-master-frontend-exercises/static/js/2.7513f9f6.chunk.js",
     "static/js/2.7513f9f6.chunk.js.map": "/platzi-master-frontend-exercises/static/js/2.7513f9f6.chunk.js.map",
     "index.html": "/platzi-master-frontend-exercises/index.html",
-    "precache-manifest.426d060aecb6db3bc4a30f63aa31c9c0.js": "/platzi-master-frontend-exercises/precache-manifest.426d060aecb6db3bc4a30f63aa31c9c0.js",
+    "precache-manifest.8f73c8d81e58d6bc2739354bfdb06bbe.js": "/platzi-master-frontend-exercises/precache-manifest.8f73c8d81e58d6bc2739354bfdb06bbe.js",
     "service-worker.js": "/platzi-master-frontend-exercises/service-worker.js",
     "static/css/main.e6c3df09.chunk.css.map": "/platzi-master-frontend-exercises/static/css/main.e6c3df09.chunk.css.map",
     "static/js/2.7513f9f6.chunk.js.LICENSE.txt": "/platzi-master-frontend-exercises/static/js/2.7513f9f6.chunk.js.LICENSE.txt",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.f94e12dd.js",
     "static/js/2.7513f9f6.chunk.js",
     "static/css/main.e6c3df09.chunk.css",
-    "static/js/main.690d9ca3.chunk.js"
+    "static/js/main.037b6d01.chunk.js"
   ]
 }
