@@ -17,28 +17,28 @@ function Exercises() {
             image={firstWeekPoster}
             title="Primera Semana"
             difficulty="Easy"
-            link="/primera-semana"
+            link={`${process.env.PUBLIC_URL}/primera-semana`}
             alt="Página del periódico The New York Times"
           />
           <Exercise
             image={fourthWeekPoster}
             title="Cuarta Semana"
             difficulty="Easy"
-            link="/cuarta-semana"
+            link={`${process.env.PUBLIC_URL}/cuarta-semana`}
             alt="Página del curso de HTMl y CSS práctico"
           />
           <Exercise
             image={fifthWeekPoster}
             title="Quinta Semana"
             difficulty="Medium"
-            link="/quinta-semana"
+            link={`${process.env.PUBLIC_URL}/quinta-semana`}
             alt="Página de ejercicio web"
           />
           <Exercise
             image={sixthWeekPoster}
             title="Sexta Semana"
             difficulty="Hard"
-            link="/sexta-semana"
+            link={`${process.env.PUBLIC_URL}/sexta-semana`}
             alt="Página para empresa"
           />
         </div>

@@ -12,11 +12,11 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" component={ Home } />
-        <Route exact path="/primera-semana" component={ FirstWeek } />
-        <Route exact path="/cuarta-semana" component={ FourthWeek } />
-        <Route exact path="/quinta-semana" component={ FifthWeek } />
-        <Route exact path="/sexta-semana" component={ SixthWeek } />
+        <Route exact path={`${process.env.PUBLIC_URL}/`} component={ Home } />
+        <Route exact path={`${process.env.PUBLIC_URL}/primera-semana`} component={ FirstWeek } />
+        <Route exact path={`${process.env.PUBLIC_URL}/cuarta-semana`} component={ FourthWeek } />
+        <Route exact path={`${process.env.PUBLIC_URL}/quinta-semana`} component={ FifthWeek } />
+        <Route exact path={`${process.env.PUBLIC_URL}/sexta-semana`} component={ SixthWeek } />
       </Switch>
     </BrowserRouter>
   )
