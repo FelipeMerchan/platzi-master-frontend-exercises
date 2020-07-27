@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot Comprobar la interfaz de usuario del componente App 1`] = `
+<main
+  className="u-wrapper bg-dark-blue"
+>
+  <div
+    className="wrapper"
+  >
+    <header
+      className="HeaderHome"
+    >
+      <img
+        alt="Felipe Sc"
+        className="HeaderHome__brand"
+        src="felipe-sc-imagotipo.svg"
+        width="220"
+      />
+    </header>
+    <section
+      className="Hero"
+    >
+      <figure
+        className="Hero__imageContainer"
+      >
+        <img
+          alt="Felipe Sc"
+          className="Hero__image"
+          src="felipe-sc-photo@2x.png"
+          width="400"
+        />
+        <div />
+      </figure>
+      <h1
+        className="Hero__title text-uppercase"
+      >
+        Ejercicios
+        <br />
+        <span>
+          frontend
+        </span>
+      </h1>
+      <h3
+        className="Hero__program text-uppercase"
+      >
+        Platzi Master
+      </h3>
+      <a
+        className="Hero__scroll-down text-uppercase"
+        href="#exercises"
+      >
+        Scroll down
+      </a>
+    </section>
+    <div>
+      <section
+        className="Exercises"
+        id="exercises"
+      >
+        <h2
+          className="Exercises__title text-uppercase"
+        >
+          Explora los ejercicios
+        </h2>
+        <div
+          className="ExercisesLists"
+        >
+          <article
+            className="Exercise"
+          >
+            <figure
+              className="Exercise__imageContainer"
+            >
+              <img
+                alt="Página del periódico The New York Times"
+                className="Exercise__image"
+                loading="lazy"
+                src="primera-semana-poster.png"
+              />
+            </figure>
+            <div
+              className="Exercise__details d-flex"
+            >
+              <h3
+                className="Exercise__title text-uppercase"
+              >
+                Primera Semana
+              </h3>
+              <h5
+                className="Exercise__difficulty text-uppercase"
+              >
+                Easy
+              </h5>
+              <a
+                className="Exercise__link text-uppercase"
+                exact="true"
+                href="/primera-semana"
+                onClick={[Function]}
+              >
+                Descubrir
+              </a>
+            </div>
+            <div
+              className="Exercise__border"
+            />
+          </article>
+          <article
+            className="Exercise"
+          >
+            <figure
+              className="Exercise__imageContainer"
+            >
+              <img
+                alt="Página del curso de HTMl y CSS práctico"
+                className="Exercise__image"
+                loading="lazy"
+                src="cuarta-semana-poster.png"
+              />
+            </figure>
+            <div
+              className="Exercise__details d-flex"
+            >
+              <h3
+                className="Exercise__title text-uppercase"
+              >
+                Cuarta Semana
+              </h3>
+              <h5
+                className="Exercise__difficulty text-uppercase"
+              >
+                Easy
+              </h5>
+              <a
+                className="Exercise__link text-uppercase"
+                exact="true"
+                href="/cuarta-semana"
+                onClick={[Function]}
+              >
+                Descubrir
+              </a>
+            </div>
+            <div
+              className="Exercise__border"
+            />
+          </article>
+          <article
+            className="Exercise"
+          >
+            <figure
+              className="Exercise__imageContainer"
+            >
+              <img
+                alt="Página de ejercicio web"
+                className="Exercise__image"
+                loading="lazy"
+                src="quinta-semana-poster.png"
+              />
+            </figure>
+            <div
+              className="Exercise__details d-flex"
+            >
+              <h3
+                className="Exercise__title text-uppercase"
+              >
+                Quinta Semana
+              </h3>
+              <h5
+                className="Exercise__difficulty text-uppercase"
+              >
+                Medium
+              </h5>
+              <a
+                className="Exercise__link text-uppercase"
+                exact="true"
+                href="/quinta-semana"
+                onClick={[Function]}
+              >
+                Descubrir
+              </a>
+            </div>
+            <div
+              className="Exercise__border"
+            />
+          </article>
+          <article
+            className="Exercise"
+          >
+            <figure
+              className="Exercise__imageContainer"
+            >
+              <img
+                alt="Página para empresa"
+                className="Exercise__image"
+                loading="lazy"
+                src="sexta-semana-poster.png"
+              />
+            </figure>
+            <div
+              className="Exercise__details d-flex"
+            >
+              <h3
+                className="Exercise__title text-uppercase"
+              >
+                Sexta Semana
+              </h3>
+              <h5
+                className="Exercise__difficulty text-uppercase"
+              >
+                Hard
+              </h5>
+              <a
+                className="Exercise__link text-uppercase"
+                exact="true"
+                href="/sexta-semana"
+                onClick={[Function]}
+              >
+                Descubrir
+              </a>
+            </div>
+            <div
+              className="Exercise__border"
+            />
+          </article>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+`;

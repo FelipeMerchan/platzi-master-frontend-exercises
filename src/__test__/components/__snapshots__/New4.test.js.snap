@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New4 Snapshot Comprobar la interfaz de usuario de New4 1`] = `
+<section
+  className="New4"
+>
+  <h3>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+  </h3>
+  <div>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+      <h5
+        className="text-uppercase float-left text-center"
+      >
+        Lorem
+        <br />
+        Ipsum
+      </h5>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequatexerci tation ullamcorper suscipit lobortis nisl orper suscipit lobortis nisl.
+      </p>
+    </div>
+    <figure>
+      <img
+        alt="Imagen de la noticia"
+        className="w-100"
+        src="picture.png"
+        width="500"
+      />
+    </figure>
+  </div>
+</section>
+`;

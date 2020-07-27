@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Snapshot Comprobar la interfaz de usuario del componente Footer 1`] = `
+<header
+  className="Header"
+>
+  <img
+    alt="The New York Times"
+    className="Header__logotipo"
+    src="the-new-york-times-logotipo.svg"
+    width="600"
+  />
+  <section
+    className="subheading"
+  >
+    <h2
+      className="text-left"
+    >
+      Contenido de subcabecera
+    </h2>
+  </section>
+</header>
+`;

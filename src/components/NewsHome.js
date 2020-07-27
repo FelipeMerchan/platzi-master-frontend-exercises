@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LeftNew from './LeftNew'
+import LeftNotice from './LeftNotice'
 import MainNew from './MainNew'
 import New3 from './New3'
 import New4 from './New4'
@@ -10,7 +10,7 @@ function NewsHome() {
   return (
     <main className="l-grid mt">
       <div className="column-1">
-        <LeftNew />
+        <LeftNotice />
       </div>
       <div className="column-2">
         <MainNew />

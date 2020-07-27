@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseHome Snapshot Comprobar la UI del componente CourseHome 1`] = `
+<main
+  className="CourseHome"
+>
+  <div
+    className="BookData"
+  >
+    <h3
+      className="BookData__title"
+    >
+      Datos del libro
+    </h3>
+    <ul
+      className="BookData__list"
+    >
+      <li>
+        <span>
+          Título: HTML & CSS:: Curso práctico avanzado.
+        </span>
+      </li>
+      <li>
+        <span>
+          Autor: Sergio Luis Mora
+        </span>
+      </li>
+      <li>
+        <span>
+          Editorial: Publicaciones Altamar
+        </span>
+      </li>
+      <li>
+        <span>
+          Año de publicaci&oacuten: 2015
+        </span>
+      </li>
+      <li>
+        <span>
+          ISBN
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <div
+      className="BookDescription"
+    >
+      <h3
+        className="BookDescription__title"
+      >
+        Descripción del libro
+      </h3>
+      <p
+        className="BookDescription__text mt-2 mb-2"
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+      </p>
+      <p
+        className="BookDescription__text mt-2 mb-2"
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+      <p
+        className="BookDescription__text mt-2 mb-2"
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <div
+      className="BookContent"
+    >
+      <h3
+        className="BookContent__title"
+      >
+        Contenido del libro
+      </h3>
+      <p
+        className="BookContent__text mt-2 mb-2"
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </p>
+      <ul
+        className="BookContent__list"
+      >
+        <li>
+          <p
+            className="BookContent__text"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
+          </p>
+        </li>
+        <li>
+          <p
+            className="BookContent__text"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.
+          </p>
+        </li>
+        <li>
+          <p
+            className="BookContent__text"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+`;

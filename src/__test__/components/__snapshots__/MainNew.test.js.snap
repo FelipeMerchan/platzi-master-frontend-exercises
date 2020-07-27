@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainNew Snapshot Comprobar la UI del componente MainNew 1`] = `
+<section
+  className="MainNew"
+>
+  <figure>
+    <img
+      alt="Barack Obama"
+      className="w-100"
+      src="barack-obama.png"
+      width="600"
+    />
+    <figcaption>
+      Lorem ipsum dolor sit amet, consectetuer
+    </figcaption>
+    <p
+      className="text-justify"
+    >
+      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam
+    </p>
+  </figure>
+</section>
+`;

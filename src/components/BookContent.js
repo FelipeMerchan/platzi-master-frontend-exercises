@@ -8,7 +8,7 @@ function BookContent() {
       <h3 className="BookContent__title">Contenido del libro</h3>
       <p className="BookContent__text mt-2 mb-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
       </p>
-      <ul class="BookContent__list">
+      <ul className="BookContent__list">
         <li>
           <p className="BookContent__text">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
