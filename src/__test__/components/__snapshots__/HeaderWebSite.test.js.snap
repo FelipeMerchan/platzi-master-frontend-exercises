@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderWebSite Snapshot Comprobar la interfaz de usuario del componente HeaderWebSite 1`] = `
+<header
+  className="HeaderWebSite text-left"
+>
+  <h1
+    className="HeaderWebSite__title"
+  >
+    Ejercicio Web
+  </h1>
+  <h4
+    className="HeaderWebSite__subtitle"
+  >
+    Página creada con HTML5
+  </h4>
+  <nav
+    className="MenuWebSite"
+  >
+    <ul>
+      <li
+        className="MenuWebSite_item"
+      >
+        <a
+          className="is-active"
+          href="#"
+          id="home"
+          onClick={[Function]}
+          role="button"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="MenuWebSite_item"
+      >
+        <a
+          href="#"
+          id="aboutUs"
+          onClick={[Function]}
+          role="button"
+        >
+          Acerca de
+        </a>
+      </li>
+      <li
+        className="MenuWebSite_item"
+      >
+        <a
+          href="#"
+          id="portfolio"
+          onClick={[Function]}
+          role="button"
+        >
+          Portafolio
+        </a>
+      </li>
+      <li
+        className="MenuWebSite_item"
+      >
+        <a
+          href="#"
+          id="blog"
+          onClick={[Function]}
+          role="button"
+        >
+          Blog
+        </a>
+      </li>
+      <li
+        className="MenuWebSite_item"
+      >
+        <a
+          href="#"
+          id="contactUs"
+          onClick={[Function]}
+          role="button"
+        >
+          Contacto
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

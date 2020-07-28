@@ -1,25 +1,62 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import './styles/MenuWebSite.css'
 
 function MenuWebSite() {
+  const [count, setCount] = useState(0)
+  const composeEvent = new Event('composed')
+  const getRandomColor = () => {
+    const randomValueOfRed = parseInt(Math.random() * 100)
+    const randomValueOfBlue = parseInt(Math.random() * 100)
+    const randomValueOfGreen = parseInt(Math.random() * 100)
+    const hexadecimalColor = `#${randomValueOfRed}${randomValueOfBlue}${randomValueOfGreen}`
+    return hexadecimalColor
+  }
+
+
+  const handleClick = (e, composeEvent, getRandomColor) => {
+    e.preventDefault()
+    const { target: { id } } = e
+    const anchorActive = document.querySelector('.is-active')
+
+    anchorActive.classList.remove('is-active')
+    e.target.classList.add('is-active')
+    document.documentElement.style.setProperty('--primaryColor', getRandomColor())
+
+    e.target.dispatchEvent(composeEvent);
+
+    setCount(count + 1)
+    console.log(`Id: ${id}, Count:${count}`)
+  }
+
+  useEffect(() => {
+    const links = document.querySelectorAll('.MenuWebSite_item > a')
+
+    links.forEach(object => {
+      object.addEventListener('composed', function(e) {
+        e.stopPropagation()
+        console.log('I´m not propagating')
+      })
+    })
+  })
+
   return (
     <nav className="MenuWebSite">
       <ul>
         <li className="MenuWebSite_item">
-          <a href="/">Home</a>
+          <a className="is-active" role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="home">Home</a>
         </li>
         <li className="MenuWebSite_item">
-          <a href="/">Acerca de</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="aboutUs">Acerca de</a>
         </li>
         <li className="MenuWebSite_item">
-          <a href="/">Portafolio</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="portfolio">Portafolio</a>
         </li>
         <li className="MenuWebSite_item">
-          <a href="/">Blog</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="blog">Blog</a>
         </li>
         <li className="MenuWebSite_item">
-          <a href="/">Contacto</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="contactUs">Contacto</a>
         </li>
       </ul>
     </nav>

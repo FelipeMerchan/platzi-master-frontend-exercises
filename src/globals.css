@@ -4,7 +4,7 @@
 :root {
   /* Colors */
   --black-color: #333;
-  --redColor: #c84451;
+  --primaryColor: #c84451;
   --actionColor: #db5132;
   --backgroundGray: #f3f3f3;
   --backgroundDarkGray: #d6d6d6;
@@ -60,7 +60,11 @@ p {
   line-height: .9;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   line-height: .9;
 }
 

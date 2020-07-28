@@ -23,18 +23,23 @@
   list-style-type: none;
 }
 
-.MenuWebSite ul li a {
+a {
   display: flex;
   justify-content: center;
   font-weight: 700;
   text-decoration: none;
-  color: var(--redColor);
+  color: #c84451;
 }
 
-.MenuWebSite ul li a:hover,
-.MenuWebSite ul li a:active {
+a:hover,
+a:active {
   color: #ffffff;
-  background-color: var(--redColor);
+  background-color: var(--primaryColor);
+}
+
+a.is-active {
+  color: #ffffff;
+  background-color: var(--primaryColor);
 }
 
 @media screen and (max-width: 480px) {
@@ -42,7 +47,7 @@
     height: auto;
   }
 
-  .MenuWebSite ul{
+  .MenuWebSite ul {
     display: initial;
   }
 }
