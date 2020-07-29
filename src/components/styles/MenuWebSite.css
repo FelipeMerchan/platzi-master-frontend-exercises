@@ -31,13 +31,13 @@ a {
   color: #c84451;
 }
 
-a:hover,
-a:active {
+.MenuWebSite a:hover,
+.MenuWebSite a:active {
   color: #ffffff;
   background-color: var(--primaryColor);
 }
 
-a.is-active {
+.MenuWebSite a.is-active {
   color: #ffffff;
   background-color: var(--primaryColor);
 }
