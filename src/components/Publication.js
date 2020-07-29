@@ -8,7 +8,7 @@ function Publication(props) {
       <div className="Publication__data">
         <span>
           El {props.date} <br />
-          Por <span className="text-red">{props.autor}</span><br />
+          Por <span className="Publication__author">{props.autor}</span><br />
           <small>{props.comments} comentarios</small>
         </span>
       </div>

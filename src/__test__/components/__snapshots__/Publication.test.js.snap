@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Publication Snapshot Comprobar la UI del componente Publication 1`] = `
+<article
+  className="Publication"
+>
+  <div
+    className="Publication__data"
+  >
+    <span>
+      El 
+       
+      <br />
+      Por 
+      <span
+        className="Publication__author"
+      />
+      <br />
+      <small>
+         comentarios
+      </small>
+    </span>
+  </div>
+  <div
+    className="Publication__details"
+  >
+    <h2
+      className="Publication__title mb"
+    />
+    <p
+      className="Publication__text mb-2"
+    />
+    <a
+      className="Publication__link"
+    >
+      Leer más
+    </a>
+  </div>
+</article>
+`;

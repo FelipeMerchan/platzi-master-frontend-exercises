@@ -16,12 +16,17 @@
   margin-right: 1%;
 }
 
+.Publication__author {
+  color: #c84451;
+}
+
 .Publication__details {
   width: 79%;
 }
 
 .Publication__title {
-  color: var(--redColor);
+  color: #c84451;
+  ;
 }
 
 .Publication__text {
@@ -29,7 +34,8 @@
 }
 
 .Publication__link {
-  color: var(--redColor);
+  color: #c84451;
+  ;
 }
 
 @media screen and (max-width: 768px) {

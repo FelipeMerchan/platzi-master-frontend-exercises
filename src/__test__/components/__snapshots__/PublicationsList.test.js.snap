@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublicationsList Snapshot Comprobar la UI del componente PublicationsList 1`] = `
+<section
+  className="PublicationsList"
+>
+  <ul>
+    <li>
+      <article
+        className="Publication"
+      >
+        <div
+          className="Publication__data"
+        >
+          <span>
+            El 
+            29 de octubre de 2012
+             
+            <br />
+            Por 
+            <span
+              className="Publication__author"
+            >
+              Ernesto G Bustamante
+            </span>
+            <br />
+            <small>
+              3
+               comentarios
+            </small>
+          </span>
+        </div>
+        <div
+          className="Publication__details"
+        >
+          <h2
+            className="Publication__title mb"
+          >
+            Las bondades de HTML5
+          </h2>
+          <p
+            className="Publication__text mb-2"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </p>
+          <a
+            className="Publication__link"
+          >
+            Leer más
+          </a>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article
+        className="Publication"
+      >
+        <div
+          className="Publication__data"
+        >
+          <span>
+            El 
+            El 26 de octubre de 2012
+             
+            <br />
+            Por 
+            <span
+              className="Publication__author"
+            >
+              Ernesto G Bustamante
+            </span>
+            <br />
+            <small>
+              21
+               comentarios
+            </small>
+          </span>
+        </div>
+        <div
+          className="Publication__details"
+        >
+          <h2
+            className="Publication__title mb"
+          >
+            HTML5 en dispositivos móviles
+          </h2>
+          <p
+            className="Publication__text mb-2"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </p>
+          <a
+            className="Publication__link"
+          >
+            Leer más
+          </a>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article
+        className="Publication"
+      >
+        <div
+          className="Publication__data"
+        >
+          <span>
+            El 
+            27 de octubre de 2012
+             
+            <br />
+            Por 
+            <span
+              className="Publication__author"
+            >
+              Ernesto G Bustamante
+            </span>
+            <br />
+            <small>
+              6
+               comentarios
+            </small>
+          </span>
+        </div>
+        <div
+          className="Publication__details"
+        >
+          <h2
+            className="Publication__title mb"
+          >
+            Internet Explorer es una basura
+          </h2>
+          <p
+            className="Publication__text mb-2"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </p>
+          <a
+            className="Publication__link"
+          >
+            Leer más
+          </a>
+        </div>
+      </article>
+    </li>
+    <li>
+      <article
+        className="Publication"
+      >
+        <div
+          className="Publication__data"
+        >
+          <span>
+            El 
+            26 de octubre de 2012
+             
+            <br />
+            Por 
+            <span
+              className="Publication__author"
+            >
+              Ernesto G Bustamante
+            </span>
+            <br />
+            <small>
+              2
+               comentarios
+            </small>
+          </span>
+        </div>
+        <div
+          className="Publication__details"
+        >
+          <h2
+            className="Publication__title mb"
+          >
+            Diseño web en pantallas retina
+          </h2>
+          <p
+            className="Publication__text mb-2"
+          >
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+          </p>
+          <a
+            className="Publication__link"
+          >
+            Leer más
+          </a>
+        </div>
+      </article>
+    </li>
+  </ul>
+</section>
+`;

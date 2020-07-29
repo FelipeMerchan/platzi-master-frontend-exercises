@@ -12,6 +12,10 @@
   margin-right: 2%;
 }
 
+.FeaturedEntry__details>h2 {
+  color: #c84451;
+}
+
 .FeaturedEntry__text {
   line-height: 1.2;
 }

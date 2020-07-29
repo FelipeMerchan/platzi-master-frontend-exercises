@@ -12,10 +12,14 @@ describe('Probar el componente <MenuWebSite />', () => {
   test('Render con el className MenuWebSite', () => {
     expect(menuWebSite.find('nav').hasClass('MenuWebSite')).toBe(true)
   })
+
+  test('Render de los 5 elementos de lista del menú', () => {
+    expect(menuWebSite.find('ul').children()).toHaveLength(5);
+  });
 })
 
-describe('Probar el estado active del componente MenuWebSite', () => {
-  const menuWebSite = mount(<MenuWebSite />)
+describe('Probar los comportamientos del componente MenuWebSite', () => {
+  const menuWebSite = mount(<MenuWebSite />, { attachTo: document.nav })
   const firstButton = menuWebSite.find('#home')
   test('Comprobar los clics en los botones de navegación a través de los mensajes en la consola', () => {
     firstButton.simulate('click')

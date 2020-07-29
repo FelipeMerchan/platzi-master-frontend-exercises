@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RandomPublication Snapshot Comprobar la UI del componente RandomPublication 1`] = `
+<section>
+  <article
+    className="RandomPublication skin"
+  >
+    <figure
+      className="RandomPublication__imageContainer"
+    >
+      <img
+        alt="Gato"
+        className="RandomPublication__image"
+        src="cat.jpg"
+      />
+    </figure>
+    <div
+      className="RandomPublication__details"
+    >
+      <p
+        className="RandomPublication__text"
+      >
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
+      </p>
+    </div>
+  </article>
+</section>
+`;

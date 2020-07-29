@@ -10,7 +10,7 @@ function FeaturedEntry() {
         <h5 className="mb">
           Entrada destacada
         </h5>
-        <h2 className="mb text-red">
+        <h2 className="mb">
           Crea un sitio web usando HTML5
         </h2>
         <p className="FeaturedEntry__text">

@@ -214,10 +214,6 @@ figcaption {
   text-transform: uppercase;
 }
 
-.text-red {
-  color: var(--redColor);
-}
-
 .line-bottom::after,
 .line-top::before {
   display: block;

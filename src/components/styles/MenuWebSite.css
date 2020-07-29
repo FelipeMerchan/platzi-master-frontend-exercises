@@ -23,7 +23,7 @@
   list-style-type: none;
 }
 
-a {
+.MenuWebSite a {
   display: flex;
   justify-content: center;
   font-weight: 700;

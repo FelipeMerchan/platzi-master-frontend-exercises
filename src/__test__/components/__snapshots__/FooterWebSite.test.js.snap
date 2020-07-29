@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterWebSite Snapshot Comprobar la UI del componente FooterWebSite 1`] = `
+<footer
+  className="FooterWebSite"
+>
+  <div
+    className="FooterWebSite__social"
+  >
+    <a
+      className="twitter"
+      href="/"
+      target="_blank"
+    >
+      <img
+        alt="Twitter"
+        src="twitter.svg"
+        width="40"
+      />
+    </a>
+    <a
+      className="facebook"
+      href="/"
+      target="_blank"
+    >
+      <img
+        alt="Facebook"
+        src="facebook.svg"
+        width="40"
+      />
+    </a>
+    <a
+      className="spotify"
+      href="/"
+      target="_blank"
+    >
+      <img
+        alt="Spotify"
+        src="spotify.svg"
+        width="40"
+      />
+    </a>
+    <a
+      className="youtube"
+      href="/"
+      target="_blank"
+    >
+      <img
+        alt="YouTube"
+        src="youtube.svg"
+        width="40"
+      />
+    </a>
+  </div>
+  <span
+    className="FooterWebSite__copyright"
+  >
+    ©2012. Todos los derechos reservados
+  </span>
+</footer>
+`;
