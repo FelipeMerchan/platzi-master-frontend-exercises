@@ -19,11 +19,12 @@ describe('Probar el componente <MenuWebSite />', () => {
 })
 
 describe('Probar los comportamientos del componente MenuWebSite', () => {
-  const menuWebSite = mount(<MenuWebSite />, { attachTo: document.nav })
+  window.console.log = jest.fn()
+  const menuWebSite = mount(<MenuWebSite />, { attachTo: document.body })
   const firstButton = menuWebSite.find('#home')
   test('Comprobar los clics en los botones de navegación a través de los mensajes en la consola', () => {
     firstButton.simulate('click')
-    expect(global.console.log).toHaveBeenCalledWith('I´m not propagating')
+    expect(window.console.log).toHaveBeenCalledWith('I´m not propagating')
   });
   test('Render con el className is-active', () => {
     expect(menuWebSite.exists('.is-active')).toBeTruthy()
