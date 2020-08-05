@@ -9,7 +9,7 @@ exports[`MenuBusiness Snapshot Comprobar la UI del componente MenuBusiness 1`] =
       className="MenuBusiness__item"
     >
       <a
-        href="#"
+        href="#home"
         id="home"
         onClick={[Function]}
         role="button"
@@ -21,7 +21,7 @@ exports[`MenuBusiness Snapshot Comprobar la UI del componente MenuBusiness 1`] =
       className="MenuBusiness__item"
     >
       <a
-        href="#"
+        href="#aboutUs"
         id="aboutUs"
         onClick={[Function]}
         role="button"
@@ -33,7 +33,7 @@ exports[`MenuBusiness Snapshot Comprobar la UI del componente MenuBusiness 1`] =
       className="MenuBusiness__item"
     >
       <a
-        href="#"
+        href="#services"
         id="services"
         onClick={[Function]}
         role="button"
@@ -45,7 +45,7 @@ exports[`MenuBusiness Snapshot Comprobar la UI del componente MenuBusiness 1`] =
       className="MenuBusiness__item"
     >
       <a
-        href="#"
+        href="#products"
         id="products"
         onClick={[Function]}
         role="button"
@@ -57,7 +57,7 @@ exports[`MenuBusiness Snapshot Comprobar la UI del componente MenuBusiness 1`] =
       className="MenuBusiness__item"
     >
       <a
-        href="#"
+        href="#contact"
         id="contact"
         onClick={[Function]}
         role="button"

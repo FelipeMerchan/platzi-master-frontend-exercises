@@ -38,19 +38,19 @@ function MenuWebSite() {
     <nav className="MenuWebSite">
       <ul>
         <li className="MenuWebSite_item">
-          <a className="is-active" role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="home">Home</a>
+          <a className="is-active" role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#home" id="home">Home</a>
         </li>
         <li className="MenuWebSite_item">
-          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="aboutUs">Acerca de</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#aboutUs" id="aboutUs">Acerca de</a>
         </li>
         <li className="MenuWebSite_item">
-          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="portfolio">Portafolio</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#portfolio" id="portfolio">Portafolio</a>
         </li>
         <li className="MenuWebSite_item">
-          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="blog">Blog</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#blog" id="blog">Blog</a>
         </li>
         <li className="MenuWebSite_item">
-          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#" id="contactUs">Contacto</a>
+          <a role="button" onClick={ (e) => handleClick(e, composeEvent, getRandomColor) } href="#contactUs" id="contactUs">Contacto</a>
         </li>
       </ul>
     </nav>

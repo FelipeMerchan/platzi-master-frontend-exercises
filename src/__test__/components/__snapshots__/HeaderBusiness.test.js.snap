@@ -22,7 +22,7 @@ exports[`HeaderBusiness Snapshot Validar la UI del componente HeaderBusiness 1`]
         className="MenuBusiness__item"
       >
         <a
-          href="#"
+          href="#home"
           id="home"
           onClick={[Function]}
           role="button"
@@ -34,7 +34,7 @@ exports[`HeaderBusiness Snapshot Validar la UI del componente HeaderBusiness 1`]
         className="MenuBusiness__item"
       >
         <a
-          href="#"
+          href="#aboutUs"
           id="aboutUs"
           onClick={[Function]}
           role="button"
@@ -46,7 +46,7 @@ exports[`HeaderBusiness Snapshot Validar la UI del componente HeaderBusiness 1`]
         className="MenuBusiness__item"
       >
         <a
-          href="#"
+          href="#services"
           id="services"
           onClick={[Function]}
           role="button"
@@ -58,7 +58,7 @@ exports[`HeaderBusiness Snapshot Validar la UI del componente HeaderBusiness 1`]
         className="MenuBusiness__item"
       >
         <a
-          href="#"
+          href="#products"
           id="products"
           onClick={[Function]}
           role="button"
@@ -70,7 +70,7 @@ exports[`HeaderBusiness Snapshot Validar la UI del componente HeaderBusiness 1`]
         className="MenuBusiness__item"
       >
         <a
-          href="#"
+          href="#contact"
           id="contact"
           onClick={[Function]}
           role="button"

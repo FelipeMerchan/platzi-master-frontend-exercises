@@ -10,7 +10,7 @@ exports[`MenuWebSite Snapshot Comprobar la UI del componente MenuWebSite 1`] = `
     >
       <a
         className="is-active"
-        href="#"
+        href="#home"
         id="home"
         onClick={[Function]}
         role="button"
@@ -22,7 +22,7 @@ exports[`MenuWebSite Snapshot Comprobar la UI del componente MenuWebSite 1`] = `
       className="MenuWebSite_item"
     >
       <a
-        href="#"
+        href="#aboutUs"
         id="aboutUs"
         onClick={[Function]}
         role="button"
@@ -34,7 +34,7 @@ exports[`MenuWebSite Snapshot Comprobar la UI del componente MenuWebSite 1`] = `
       className="MenuWebSite_item"
     >
       <a
-        href="#"
+        href="#portfolio"
         id="portfolio"
         onClick={[Function]}
         role="button"
@@ -46,7 +46,7 @@ exports[`MenuWebSite Snapshot Comprobar la UI del componente MenuWebSite 1`] = `
       className="MenuWebSite_item"
     >
       <a
-        href="#"
+        href="#blog"
         id="blog"
         onClick={[Function]}
         role="button"
@@ -58,7 +58,7 @@ exports[`MenuWebSite Snapshot Comprobar la UI del componente MenuWebSite 1`] = `
       className="MenuWebSite_item"
     >
       <a
-        href="#"
+        href="#contactUs"
         id="contactUs"
         onClick={[Function]}
         role="button"

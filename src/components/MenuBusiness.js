@@ -30,19 +30,19 @@ function MenuBusiness() {
     <nav className="MenuBusiness">
       <ul>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#" id="home" >Inicio</a>
+          <a role="button" onClick={ (event) => handleClick(event) } href="#home" id="home" >Inicio</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#" id="aboutUs" >Acerca</a>
+          <a role="button" onClick={ (event) => handleClick(event) } href="#aboutUs" id="aboutUs" >Acerca</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#" id="services" >Servicios</a>
+          <a role="button" onClick={ (event) => handleClick(event) } href="#services" id="services" >Servicios</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#" id="products" >Productos</a>
+          <a role="button" onClick={ (event) => handleClick(event) } href="#products" id="products" >Productos</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#" id="contact" >Contacto</a>
+          <a role="button" onClick={ (event) => handleClick(event) } href="#contact" id="contact" >Contacto</a>
         </li>
       </ul>
     </nav>
