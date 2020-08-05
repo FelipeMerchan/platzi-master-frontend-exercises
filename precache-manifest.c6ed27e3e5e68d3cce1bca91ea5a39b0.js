@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b19e520c3ef470c80aa838736b7d0fc8",
+    "revision": "deba9c6c94ca2870c5a38bc073f45cc9",
     "url": "/platzi-master-frontend-exercises/index.html"
   },
   {
-    "revision": "31458f95324219356d98",
-    "url": "/platzi-master-frontend-exercises/static/css/main.71140a3f.chunk.css"
+    "revision": "34b6662b3e239a480d4b",
+    "url": "/platzi-master-frontend-exercises/static/css/main.7552606a.chunk.css"
   },
   {
     "revision": "521725c43b944f207390",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31458f95324219356d98",
-    "url": "/platzi-master-frontend-exercises/static/js/main.e48b604f.chunk.js"
+    "revision": "34b6662b3e239a480d4b",
+    "url": "/platzi-master-frontend-exercises/static/js/main.9efc8d33.chunk.js"
   },
   {
     "revision": "67ce0659309e5c12af30",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/media/analisis.22930274.png"
   },
   {
-    "revision": "8e852252912655f4e598280faec7a63c",
-    "url": "/platzi-master-frontend-exercises/static/media/arrows.8e852252.svg"
+    "revision": "0384ff78dfd37d63ed8d1a98b3a99a7a",
+    "url": "/platzi-master-frontend-exercises/static/media/arrows.0384ff78.svg"
   },
   {
     "revision": "69638b3a68bf01cdc78cca9352c781ac",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/media/brand.de6a35dc.JPG"
   },
   {
-    "revision": "dd1df017c7da0e129bbbbb6d922da6be",
-    "url": "/platzi-master-frontend-exercises/static/media/bullet-points.dd1df017.svg"
+    "revision": "9b9c175c828987ef5356c29990805564",
+    "url": "/platzi-master-frontend-exercises/static/media/bullet-points.9b9c175c.svg"
   },
   {
     "revision": "eabe4f8c394086834eb9016e911c8431",
@@ -56,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/media/cuarta-semana-poster.6435cb91.png"
   },
   {
-    "revision": "f18d828a3d97ec758445a5194335c882",
-    "url": "/platzi-master-frontend-exercises/static/media/facebook.f18d828a.svg"
+    "revision": "7e3fe08b1f388a7624ec6a20a639ce3d",
+    "url": "/platzi-master-frontend-exercises/static/media/facebook.7e3fe08b.svg"
   },
   {
     "revision": "c07d986728581740ee50ac39280d510f",
     "url": "/platzi-master-frontend-exercises/static/media/featured-entry.c07d9867.jpg"
   },
   {
-    "revision": "39e7cd0e189e8d822b391fa8b402f6ef",
-    "url": "/platzi-master-frontend-exercises/static/media/felipe-sc-imagotipo.39e7cd0e.svg"
+    "revision": "655badcb070c1bcfc72b31a83ea51164",
+    "url": "/platzi-master-frontend-exercises/static/media/felipe-sc-imagotipo.655badcb.svg"
   },
   {
     "revision": "4e8ce4e4c7bd2bff0636b39c7b6f55c9",
@@ -92,27 +92,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/media/quinta-semana-poster.e6757da0.png"
   },
   {
-    "revision": "02111f20632785e1364b7cfc0741bf99",
-    "url": "/platzi-master-frontend-exercises/static/media/scroll-down-arrow.02111f20.svg"
+    "revision": "9bc2bd6cc56043e3aa34234dea6dccd3",
+    "url": "/platzi-master-frontend-exercises/static/media/scroll-down-arrow.9bc2bd6c.svg"
   },
   {
     "revision": "f98d3df4002af0073b0bc347ae2284b4",
     "url": "/platzi-master-frontend-exercises/static/media/sexta-semana-poster.f98d3df4.png"
   },
   {
-    "revision": "68aac7b10a8da268243ec2cd3082305c",
-    "url": "/platzi-master-frontend-exercises/static/media/spotify.68aac7b1.svg"
+    "revision": "07206612edde3167f1f0d567458c3ec5",
+    "url": "/platzi-master-frontend-exercises/static/media/spotify.07206612.svg"
   },
   {
-    "revision": "f31a786990bcb8f0de80ca8e2c0080db",
-    "url": "/platzi-master-frontend-exercises/static/media/the-new-york-times-logotipo.f31a7869.svg"
+    "revision": "b9a077706d0480d5fea8e4902db61a40",
+    "url": "/platzi-master-frontend-exercises/static/media/the-new-york-times-logotipo.b9a07770.svg"
   },
   {
-    "revision": "ca8b79d3d68c2aff5ed993e9a2e79bae",
-    "url": "/platzi-master-frontend-exercises/static/media/twitter.ca8b79d3.svg"
+    "revision": "3aaf50c54ec602b36310db044ebeae6f",
+    "url": "/platzi-master-frontend-exercises/static/media/twitter.3aaf50c5.svg"
   },
   {
-    "revision": "93e2a0676014a4eaaf1511eefb787874",
-    "url": "/platzi-master-frontend-exercises/static/media/youtube.93e2a067.svg"
+    "revision": "375e7d9d2dd46368204b4910f539ec8d",
+    "url": "/platzi-master-frontend-exercises/static/media/youtube.375e7d9d.svg"
   }
 ]);
