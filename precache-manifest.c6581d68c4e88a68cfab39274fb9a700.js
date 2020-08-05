@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b63c12ec8d36dff901fa48bbdcdd7f6b",
+    "revision": "b19e520c3ef470c80aa838736b7d0fc8",
     "url": "/platzi-master-frontend-exercises/index.html"
   },
   {
-    "revision": "6f31fc51afab269c08e8",
+    "revision": "31458f95324219356d98",
     "url": "/platzi-master-frontend-exercises/static/css/main.71140a3f.chunk.css"
   },
   {
-    "revision": "33a81cb8388b7f6d5ac5",
-    "url": "/platzi-master-frontend-exercises/static/js/2.0261147b.chunk.js"
+    "revision": "521725c43b944f207390",
+    "url": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/platzi-master-frontend-exercises/static/js/2.0261147b.chunk.js.LICENSE.txt"
+    "url": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f31fc51afab269c08e8",
-    "url": "/platzi-master-frontend-exercises/static/js/main.a520942e.chunk.js"
+    "revision": "31458f95324219356d98",
+    "url": "/platzi-master-frontend-exercises/static/js/main.e48b604f.chunk.js"
   },
   {
     "revision": "67ce0659309e5c12af30",
