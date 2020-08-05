@@ -1,17 +1,11 @@
 import React, { useState, useEffect } from 'react'
+import { getRandomColor } from '../utils/getRandomColor'
 
 import './styles/MenuWebSite.css'
 
 function MenuWebSite() {
   const [count, setCount] = useState(0)
   const composeEvent = new Event('composed')
-  const getRandomColor = () => {
-    const randomValueOfRed = parseInt(Math.random() * 100)
-    const randomValueOfBlue = parseInt(Math.random() * 100)
-    const randomValueOfGreen = parseInt(Math.random() * 100)
-    const hexadecimalColor = `#${randomValueOfRed}${randomValueOfBlue}${randomValueOfGreen}`
-    return hexadecimalColor
-  }
 
 
   const handleClick = (e, composeEvent, getRandomColor) => {

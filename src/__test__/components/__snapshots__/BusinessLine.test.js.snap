@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessLine Snapshot Comprobar la UI del componente BusinessLine 1`] = `
+<article
+  className="BusinessLine"
+>
+  <figure
+    className="BusinessLine__imageContainer"
+  >
+    <img
+      className="BusinessLine__image"
+      width="200"
+    />
+  </figure>
+  <div>
+    <h3
+      className="BusinessLine__name text-consultancy-color"
+    />
+    <p
+      className="BusinessLine__description"
+    >
+      Lorem ipsum dolor sit amet, consectetuer aiscing elit.
+    </p>
+  </div>
+</article>
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderBusiness Snapshot Validar la UI del componente HeaderBusiness 1`] = `
+<header
+  className="HeaderBusiness"
+>
+  <figure
+    className="HeaderBusiness__brandContainer"
+  >
+    <img
+      alt="Empresa.com"
+      className="HeaderBusiness__brand"
+      src="brand.JPG"
+      width="300"
+    />
+  </figure>
+  <nav
+    className="MenuBusiness"
+  >
+    <ul>
+      <li
+        className="MenuBusiness__item"
+      >
+        <a
+          href="#"
+          id="home"
+          onClick={[Function]}
+          role="button"
+        >
+          Inicio
+        </a>
+      </li>
+      <li
+        className="MenuBusiness__item"
+      >
+        <a
+          href="#"
+          id="aboutUs"
+          onClick={[Function]}
+          role="button"
+        >
+          Acerca
+        </a>
+      </li>
+      <li
+        className="MenuBusiness__item"
+      >
+        <a
+          href="#"
+          id="services"
+          onClick={[Function]}
+          role="button"
+        >
+          Servicios
+        </a>
+      </li>
+      <li
+        className="MenuBusiness__item"
+      >
+        <a
+          href="#"
+          id="products"
+          onClick={[Function]}
+          role="button"
+        >
+          Productos
+        </a>
+      </li>
+      <li
+        className="MenuBusiness__item"
+      >
+        <a
+          href="#"
+          id="contact"
+          onClick={[Function]}
+          role="button"
+        >
+          Contacto
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

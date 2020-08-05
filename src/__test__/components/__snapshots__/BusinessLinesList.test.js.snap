@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BusinessLinesList Snapshot Comprobar la UI del componente BusinessLinesList 1`] = `
+<section
+  className="BusinessLinesList"
+>
+  <h1
+    className="BusinessLinesList__title"
+  >
+    Soluciones corporativas 
+    <br />
+    <span>
+      lorem ipsum dolor sit amet, consectetuer adipiscing elit
+    </span>
+  </h1>
+  <div>
+    <article
+      className="BusinessLine"
+    >
+      <figure
+        className="BusinessLine__imageContainer"
+      >
+        <img
+          alt="Consultoría"
+          className="BusinessLine__image"
+          src="consultoria.png"
+          width="200"
+        />
+      </figure>
+      <div>
+        <h3
+          className="BusinessLine__name text-consultancy-color"
+          style={
+            Object {
+              "color": "#5c7e9d",
+            }
+          }
+        >
+          Consultoría
+        </h3>
+        <p
+          className="BusinessLine__description"
+        >
+          Lorem ipsum dolor sit amet, consectetuer aiscing elit.
+        </p>
+      </div>
+    </article>
+    <article
+      className="BusinessLine"
+    >
+      <figure
+        className="BusinessLine__imageContainer"
+      >
+        <img
+          alt="Formación"
+          className="BusinessLine__image"
+          src="formacion.png"
+          width="200"
+        />
+      </figure>
+      <div>
+        <h3
+          className="BusinessLine__name text-consultancy-color"
+          style={
+            Object {
+              "color": "#78b8b2",
+            }
+          }
+        >
+          Formación
+        </h3>
+        <p
+          className="BusinessLine__description"
+        >
+          Lorem ipsum dolor sit amet, consectetuer aiscing elit.
+        </p>
+      </div>
+    </article>
+    <article
+      className="BusinessLine"
+    >
+      <figure
+        className="BusinessLine__imageContainer"
+      >
+        <img
+          alt="Análisis"
+          className="BusinessLine__image"
+          src="analisis.png"
+          width="200"
+        />
+      </figure>
+      <div>
+        <h3
+          className="BusinessLine__name text-consultancy-color"
+          style={
+            Object {
+              "color": "#e5bb69",
+            }
+          }
+        >
+          Análisis
+        </h3>
+        <p
+          className="BusinessLine__description"
+        >
+          Lorem ipsum dolor sit amet, consectetuer aiscing elit.
+        </p>
+      </div>
+    </article>
+    <article
+      className="BusinessLine"
+    >
+      <figure
+        className="BusinessLine__imageContainer"
+      >
+        <img
+          alt="Investigación"
+          className="BusinessLine__image"
+          src="investigacion.png"
+          width="200"
+        />
+      </figure>
+      <div>
+        <h3
+          className="BusinessLine__name text-consultancy-color"
+          style={
+            Object {
+              "color": "#bb604f",
+            }
+          }
+        >
+          Investigación
+        </h3>
+        <p
+          className="BusinessLine__description"
+        >
+          Lorem ipsum dolor sit amet, consectetuer aiscing elit.
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+`;
