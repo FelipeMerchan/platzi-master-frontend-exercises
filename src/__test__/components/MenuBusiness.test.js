@@ -18,14 +18,13 @@ describe('Probar el componente <MenuBusiness />', () => {
   });
 })
 
-
 describe('Probar los comportamientos del componente MenuBusiness', () => {
-  window.console.log = jest.fn()
-  const menuBusiness = mount(<MenuBusiness />, { attachTo: document.body })
+  const onClick = jest.fn()
+  const menuBusiness = mount(<MenuBusiness onClick={onClick} />, { attachTo: document.body })
   const firstButton = menuBusiness.find('#home')
-  test('Comprobar la lógica en los clics de los botones de navegación a través de los mensajes en la consola del navegador', () => {
+  test('Comprobar que los botones del footer cambien de color a través de los clics de los botones de navegación', () => {
     firstButton.simulate('click')
-    expect(window.console.log).toHaveBeenCalledWith('I´m not propagating')
+    expect(onClick).toHaveBeenCalledTimes(1);
   });
 })
 

@@ -74,7 +74,10 @@ exports[`OurServices Snapshot Comprobar la UI del componente OurServices 1`] = `
   <div>
     <a
       className="button"
+      data-button="footer"
       href="/"
+      onClick={[Function]}
+      role="button"
       target="_blank"
     >
       Leer más

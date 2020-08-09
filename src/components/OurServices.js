@@ -2,7 +2,12 @@ import React from 'react'
 
 import './styles/OurServices.css'
 
-function OurServices() {
+function OurServices(props) {
+  const handleClick = (event) => {
+    event.preventDefault()
+    props.onClick(event)
+  }
+
   return (
     <section className="OurServices">
       <div>
@@ -32,7 +37,16 @@ function OurServices() {
         </ul>
       </div>
       <div>
-        <a className="button" href="/" target="_blank">Leer más</a>
+        <a
+          className="button"
+          role="button"
+          onClick={handleClick}
+          href="/"
+          target="_blank"
+          data-button="footer"
+        >
+          Leer más
+        </a>
       </div>
     </section>
   )

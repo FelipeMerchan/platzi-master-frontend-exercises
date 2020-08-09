@@ -4,12 +4,12 @@ import WelcomeMessage from './WelcomeMessage'
 import RecentNews from './RecentNews'
 import OurServices from './OurServices'
 
-function CompanyInformation() {
+function CompanyInformation(props) {
   return (
     <div className="CompanyInformation d-flex pb-2">
-      <WelcomeMessage />
-      <RecentNews />
-      <OurServices />
+      <WelcomeMessage onClick={props.onClick} />
+      <RecentNews onClick={props.onClick} />
+      <OurServices onClick={props.onClick} />
     </div>
   )
 }

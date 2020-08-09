@@ -6,6 +6,7 @@
   --black-color: #333;
   --primaryColor: #c84451;
   --actionColor: #db5132;
+  --actionColor-2: #4d4c4f;
   --backgroundGray: #f3f3f3;
   --backgroundDarkGray: #d6d6d6;
   --typographyColor: #5d6270;
@@ -102,7 +103,7 @@ figcaption {
   padding: calc(var(--space) / 2) var(--space-2);
   font-weight: var(--bold);
   color: #ffffff;
-  background-color: #4d4c4f;
+  background-color: var(--actionColor-2);
 }
 
 /* ------------------------------------- Utilities */

@@ -2,7 +2,12 @@ import React from 'react'
 
 import './styles/RecentNews.css'
 
-function RecentNews() {
+function RecentNews(props) {
+  const handleClick = (event) => {
+    event.preventDefault()
+    props.onClick(event)
+  }
+
   return (
     <section className="RecentNews">
       <h2 className="RecentNews___title">Noticias Recientes</h2>
@@ -21,7 +26,16 @@ function RecentNews() {
         </p>
       </div>
       <div className="mt-2">
-        <a className="button" href="/" target="_blank">Más noticias</a>
+        <a
+          className="button"
+          role="button"
+          href="/"
+          onClick={handleClick}
+          target="_blank"
+          data-button="footer"
+        >
+          Más noticias
+        </a>
       </div>
     </section>
   )

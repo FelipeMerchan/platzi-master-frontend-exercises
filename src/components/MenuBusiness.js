@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react'
 
 import './styles/MenuBusiness.css'
 
-function MenuBusiness() {
+function MenuBusiness(props) {
   const [count, setCount] = useState(0)
   const composeEvent = new Event('composed')
 
   const handleClick = event => {
     event.preventDefault()
+    props.onClick(event)
     const { target: { id } } = event
 
     event.target.dispatchEvent(composeEvent);
@@ -30,19 +31,19 @@ function MenuBusiness() {
     <nav className="MenuBusiness">
       <ul>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#home" id="home" >Inicio</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button='nav' href="#home" id="home" >Inicio</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#aboutUs" id="aboutUs" >Acerca</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button='nav' href="#aboutUs" id="aboutUs" >Acerca</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#services" id="services" >Servicios</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button='nav' href="#services" id="services" >Servicios</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#products" id="products" >Productos</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button='nav' href="#products" id="products" >Productos</a>
         </li>
         <li className="MenuBusiness__item">
-          <a role="button" onClick={ (event) => handleClick(event) } href="#contact" id="contact" >Contacto</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button='nav' href="#contact" id="contact" >Contacto</a>
         </li>
       </ul>
     </nav>

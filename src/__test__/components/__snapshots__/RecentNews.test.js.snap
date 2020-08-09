@@ -38,7 +38,10 @@ exports[`RecentNews Snapshot Comprobar la UI del componente RecentNews 1`] = `
   >
     <a
       className="button"
+      data-button="footer"
       href="/"
+      onClick={[Function]}
+      role="button"
       target="_blank"
     >
       Más noticias
