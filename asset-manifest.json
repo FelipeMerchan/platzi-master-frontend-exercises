@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/platzi-master-frontend-exercises/static/css/main.7552606a.chunk.css",
-    "main.js": "/platzi-master-frontend-exercises/static/js/main.9efc8d33.chunk.js",
-    "main.js.map": "/platzi-master-frontend-exercises/static/js/main.9efc8d33.chunk.js.map",
+    "main.css": "/platzi-master-frontend-exercises/static/css/main.8f3e4d14.chunk.css",
+    "main.js": "/platzi-master-frontend-exercises/static/js/main.3d8535bf.chunk.js",
+    "main.js.map": "/platzi-master-frontend-exercises/static/js/main.3d8535bf.chunk.js.map",
     "runtime-main.js": "/platzi-master-frontend-exercises/static/js/runtime-main.f94e12dd.js",
     "runtime-main.js.map": "/platzi-master-frontend-exercises/static/js/runtime-main.f94e12dd.js.map",
     "static/js/2.53dca424.chunk.js": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js",
     "static/js/2.53dca424.chunk.js.map": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js.map",
     "index.html": "/platzi-master-frontend-exercises/index.html",
-    "precache-manifest.c6ed27e3e5e68d3cce1bca91ea5a39b0.js": "/platzi-master-frontend-exercises/precache-manifest.c6ed27e3e5e68d3cce1bca91ea5a39b0.js",
+    "precache-manifest.7bbd0945ca46de3a3679a3e41e4c565f.js": "/platzi-master-frontend-exercises/precache-manifest.7bbd0945ca46de3a3679a3e41e4c565f.js",
     "service-worker.js": "/platzi-master-frontend-exercises/service-worker.js",
-    "static/css/main.7552606a.chunk.css.map": "/platzi-master-frontend-exercises/static/css/main.7552606a.chunk.css.map",
+    "static/css/main.8f3e4d14.chunk.css.map": "/platzi-master-frontend-exercises/static/css/main.8f3e4d14.chunk.css.map",
     "static/js/2.53dca424.chunk.js.LICENSE.txt": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js.LICENSE.txt",
     "static/media/analisis.png": "/platzi-master-frontend-exercises/static/media/analisis.22930274.png",
     "static/media/Exercise.css": "/platzi-master-frontend-exercises/static/media/arrows.0384ff78.svg",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.f94e12dd.js",
     "static/js/2.53dca424.chunk.js",
-    "static/css/main.7552606a.chunk.css",
-    "static/js/main.9efc8d33.chunk.js"
+    "static/css/main.8f3e4d14.chunk.css",
+    "static/js/main.3d8535bf.chunk.js"
   ]
 }
