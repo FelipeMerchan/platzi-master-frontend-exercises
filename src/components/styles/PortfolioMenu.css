@@ -1,0 +1,18 @@
+.PortfolioMenu {
+  font-family: var(--font-4);
+  font-weight: var(--extra-bold);
+}
+
+.PortfolioMenu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PortfolioMenu__item {
+  margin-inline-end: var(--space-4);
+  list-style: none;
+}
+
+.PortfolioMenu__item>a {
+  color: #07080d;
+}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
 
 :root {
   /* Colors */
@@ -207,6 +207,10 @@ figcaption {
   text-align: left;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .text-justify {
   text-align: justify;
 }
@@ -237,4 +241,10 @@ figcaption {
 
 .bg-dark-blue {
   background-color: var(--primaryColorDark);
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(220, 220, 220, 1) 100%);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(220, 220, 220, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(220, 220, 220, 1) 100%);
 }

@@ -1,0 +1,18 @@
+.PortfolioHero {
+  max-width: 600px;
+  margin-block-start: var(--space);
+  margin-block-end: var(--space-2);
+  font-family: var(--font-4);
+}
+
+.PortfolioHero__title {
+  margin-block-start: var(--space);
+  font-size: 30px;
+  color: #c5345c;
+  line-height: 1;
+  font-weight: var(--bold);
+}
+
+.PortfolioHero__title>span {
+  color: #07080d;
+}

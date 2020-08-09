@@ -15,31 +15,38 @@ function Exercises() {
         <div className="ExercisesLists">
           <Exercise
             image={firstWeekPoster}
-            title="Primera Semana"
-            difficulty="Easy"
+            title="Semana: 1"
+            difficulty="Fácil"
             link={`${process.env.PUBLIC_URL}/primera-semana`}
             alt="Página del periódico The New York Times"
           />
           <Exercise
             image={fourthWeekPoster}
-            title="Cuarta Semana"
-            difficulty="Easy"
+            title="Semana: 4"
+            difficulty="Fácil"
             link={`${process.env.PUBLIC_URL}/cuarta-semana`}
             alt="Página del curso de HTMl y CSS práctico"
           />
           <Exercise
             image={fifthWeekPoster}
-            title="Quinta Semana"
-            difficulty="Medium"
+            title="Semana: 5"
+            difficulty="Normal"
             link={`${process.env.PUBLIC_URL}/quinta-semana`}
             alt="Página de ejercicio web"
           />
           <Exercise
             image={sixthWeekPoster}
-            title="Sexta Semana"
-            difficulty="Hard"
+            title="Semana: 6"
+            difficulty="Difícil"
             link={`${process.env.PUBLIC_URL}/sexta-semana`}
             alt="Página para empresa"
+          />
+          <Exercise
+            image={sixthWeekPoster}
+            title="Semana: 13"
+            difficulty="Difícil"
+            link={`${process.env.PUBLIC_URL}/decima-tercera-semana`}
+            alt="Página para un portafolio"
           />
         </div>
       </section>

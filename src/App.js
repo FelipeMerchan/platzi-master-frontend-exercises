@@ -6,6 +6,7 @@ import FirstWeek from './pages/FirstWeek'
 import FourthWeek from './pages/FourthWeek'
 import FifthWeek from './pages/FifthWeek'
 import SixthWeek from './pages/SixthWeek'
+import ThirteenthWeek from './pages/ThirteenthWeek'
 import './globals.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path={`${process.env.PUBLIC_URL}/cuarta-semana`} component={ FourthWeek } />
         <Route exact path={`${process.env.PUBLIC_URL}/quinta-semana`} component={ FifthWeek } />
         <Route exact path={`${process.env.PUBLIC_URL}/sexta-semana`} component={ SixthWeek } />
+        <Route exact path={`${process.env.PUBLIC_URL}/decima-tercera-semana`} component={ ThirteenthWeek } />
       </Switch>
     </BrowserRouter>
   )
