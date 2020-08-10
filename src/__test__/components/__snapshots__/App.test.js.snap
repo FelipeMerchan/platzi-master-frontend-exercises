@@ -84,12 +84,12 @@ exports[`App Snapshot Comprobar la interfaz de usuario del componente App 1`] = 
               <h3
                 className="Exercise__title text-uppercase"
               >
-                Primera Semana
+                Semana: 1
               </h3>
               <h5
                 className="Exercise__difficulty text-uppercase"
               >
-                Easy
+                Fácil
               </h5>
               <a
                 className="Exercise__link text-uppercase"
@@ -123,12 +123,12 @@ exports[`App Snapshot Comprobar la interfaz de usuario del componente App 1`] = 
               <h3
                 className="Exercise__title text-uppercase"
               >
-                Cuarta Semana
+                Semana: 4
               </h3>
               <h5
                 className="Exercise__difficulty text-uppercase"
               >
-                Easy
+                Fácil
               </h5>
               <a
                 className="Exercise__link text-uppercase"
@@ -162,12 +162,12 @@ exports[`App Snapshot Comprobar la interfaz de usuario del componente App 1`] = 
               <h3
                 className="Exercise__title text-uppercase"
               >
-                Quinta Semana
+                Semana: 5
               </h3>
               <h5
                 className="Exercise__difficulty text-uppercase"
               >
-                Medium
+                Normal
               </h5>
               <a
                 className="Exercise__link text-uppercase"
@@ -201,17 +201,56 @@ exports[`App Snapshot Comprobar la interfaz de usuario del componente App 1`] = 
               <h3
                 className="Exercise__title text-uppercase"
               >
-                Sexta Semana
+                Semana: 6
               </h3>
               <h5
                 className="Exercise__difficulty text-uppercase"
               >
-                Hard
+                Difícil
               </h5>
               <a
                 className="Exercise__link text-uppercase"
                 exact="true"
                 href="/sexta-semana"
+                onClick={[Function]}
+              >
+                Descubrir
+              </a>
+            </div>
+            <div
+              className="Exercise__border"
+            />
+          </article>
+          <article
+            className="Exercise"
+          >
+            <figure
+              className="Exercise__imageContainer"
+            >
+              <img
+                alt="Página para un portafolio"
+                className="Exercise__image"
+                loading="lazy"
+                src="decima-tercera-semana-poster.jpg"
+              />
+            </figure>
+            <div
+              className="Exercise__details d-flex"
+            >
+              <h3
+                className="Exercise__title text-uppercase"
+              >
+                Semana: 13
+              </h3>
+              <h5
+                className="Exercise__difficulty text-uppercase"
+              >
+                Difícil
+              </h5>
+              <a
+                className="Exercise__link text-uppercase"
+                exact="true"
+                href="/decima-tercera-semana"
                 onClick={[Function]}
               >
                 Descubrir
