@@ -1,0 +1,22 @@
+.SocialMedia__title {
+  margin-block-end: var(--space-2);
+  font-family: var(--font-4);
+  font-size: 40px;
+  color: #c5345c;
+  line-height: .7;
+}
+
+.SocialMedia__title>span {
+  color: #66615f;
+  padding-inline-start: var(--space-5);
+}
+
+.SocialMedia a {
+  display: block;
+  margin-block-end: var(--space);
+}
+
+.SocialMedia__url {
+  margin-inline-start: var(--space);
+  color: #c5345c;
+}

@@ -1,11 +1,12 @@
 .PortfolioMenu {
+  display: inline-block;
+  padding: var(--space-2) 0;
   font-family: var(--font-4);
   font-weight: var(--extra-bold);
 }
 
 .PortfolioMenu ul {
   display: flex;
-  justify-content: flex-end;
 }
 
 .PortfolioMenu__item {

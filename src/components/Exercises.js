@@ -6,6 +6,7 @@ import firstWeekPoster from '../images/primera-semana-poster.png'
 import fourthWeekPoster from '../images/cuarta-semana-poster.png'
 import fifthWeekPoster from '../images/quinta-semana-poster.png'
 import sixthWeekPoster from '../images/sexta-semana-poster.png'
+import thirteenthWeekPoster from '../images/decima-tercera-semana-poster.jpg'
 
 function Exercises() {
   return (
@@ -42,7 +43,7 @@ function Exercises() {
             alt="Página para empresa"
           />
           <Exercise
-            image={sixthWeekPoster}
+            image={thirteenthWeekPoster}
             title="Semana: 13"
             difficulty="Difícil"
             link={`${process.env.PUBLIC_URL}/decima-tercera-semana`}

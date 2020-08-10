@@ -1,0 +1,17 @@
+.PortfolioFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #afafaf;
+}
+
+.PortfolioFooter strong {
+  color: #c5345c;
+}
+
+@media screen and (max-width: 768px) {
+  .PortfolioFooter {
+    display: block;
+    padding: var(--space-2) 0;
+  }
+}

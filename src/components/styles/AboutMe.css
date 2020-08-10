@@ -1,12 +1,48 @@
 .AboutMe {
+  position: relative;
+  margin-block-end: var(--space-5);
   font-family: var(--font-4);
   color: #07080d;
 }
 
 .AboutMe__title {
+  margin-block-end: var(--space-2);
+  font-size: 40px;
   color: #c5345c;
+  line-height: .7;
 }
 
 .AboutMe__title>span {
   color: #66615f;
+  padding-inline-start: var(--space-5);
+}
+
+.AboutMe__description {
+  max-width: 350px;
+  margin-block-end: var(--space-2);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.AboutMe__link {
+  position: absolute;
+  display: block;
+  right: var(--space-5);
+  padding: var(--space) var(--space-2);
+  border-block-end: 1px solid #c0c0c0;
+  border-radius: 10px;
+  color: #07080d;
+}
+
+.AboutMe__link:after {
+  content: '>';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-inline-start: var(--space-2);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  background-color: #c5345c;
+  color: #ffffff;
 }

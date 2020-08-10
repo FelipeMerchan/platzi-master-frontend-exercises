@@ -1,0 +1,27 @@
+.AboutMeContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: var(--space-2);
+  padding: var(--space-3) 0;
+}
+
+.AboutMeContainer>article:first-child {
+  border-inline-end: 1px solid #ffffff;
+}
+
+.Activity {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: var(--space-2);
+  padding-block-end: var(--space-2);
+}
+
+@media screen and (max-width: 768px) {
+  .AboutMeContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .Activity {
+    grid-template-columns: 1fr;
+  }
+}
