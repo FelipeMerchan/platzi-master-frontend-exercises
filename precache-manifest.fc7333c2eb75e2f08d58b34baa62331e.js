@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8376816cc124008195acf79d010fe766",
+    "revision": "1bcb5b883fe45422b5ffdd1ce9d0f505",
     "url": "/platzi-master-frontend-exercises/index.html"
   },
   {
-    "revision": "871056af93ca0846b78a",
-    "url": "/platzi-master-frontend-exercises/static/css/main.8f3e4d14.chunk.css"
+    "revision": "c3504599254f6c159ec2",
+    "url": "/platzi-master-frontend-exercises/static/css/main.b29f7546.chunk.css"
   },
   {
-    "revision": "521725c43b944f207390",
-    "url": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js"
+    "revision": "2991952ec2e48db73f2f",
+    "url": "/platzi-master-frontend-exercises/static/js/2.629a34da.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/platzi-master-frontend-exercises/static/js/2.53dca424.chunk.js.LICENSE.txt"
+    "url": "/platzi-master-frontend-exercises/static/js/2.629a34da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "871056af93ca0846b78a",
-    "url": "/platzi-master-frontend-exercises/static/js/main.3d8535bf.chunk.js"
+    "revision": "c3504599254f6c159ec2",
+    "url": "/platzi-master-frontend-exercises/static/js/main.25356740.chunk.js"
   },
   {
     "revision": "67ce0659309e5c12af30",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "229302749a398e34eab80749b9d2934c",
     "url": "/platzi-master-frontend-exercises/static/media/analisis.22930274.png"
+  },
+  {
+    "revision": "160b4e55965dcf3e9cf74c56122d88a5",
+    "url": "/platzi-master-frontend-exercises/static/media/arrow-pink-left.160b4e55.svg"
+  },
+  {
+    "revision": "8ec9792cbad34663122bf2a010294dc5",
+    "url": "/platzi-master-frontend-exercises/static/media/arrow-pink-right.8ec9792c.svg"
   },
   {
     "revision": "0384ff78dfd37d63ed8d1a98b3a99a7a",
@@ -56,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/media/cuarta-semana-poster.6435cb91.png"
   },
   {
+    "revision": "e346f054924b40bc941e9e09f7a8983a",
+    "url": "/platzi-master-frontend-exercises/static/media/decima-tercera-semana-poster.e346f054.jpg"
+  },
+  {
     "revision": "7e3fe08b1f388a7624ec6a20a639ce3d",
     "url": "/platzi-master-frontend-exercises/static/media/facebook.7e3fe08b.svg"
   },
@@ -76,12 +88,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/platzi-master-frontend-exercises/static/media/formacion.f5cb356f.png"
   },
   {
+    "revision": "132d8bbec4c13b60087f99e989b12c42",
+    "url": "/platzi-master-frontend-exercises/static/media/image-slider-2.132d8bbe.png"
+  },
+  {
+    "revision": "132d8bbec4c13b60087f99e989b12c42",
+    "url": "/platzi-master-frontend-exercises/static/media/image-slider.132d8bbe.png"
+  },
+  {
     "revision": "da4c1c2f6da55f2c8ece97f34fa33a19",
     "url": "/platzi-master-frontend-exercises/static/media/investigacion.da4c1c2f.png"
   },
   {
     "revision": "ba10dbbbda3b257d7269c47dfc27cd18",
     "url": "/platzi-master-frontend-exercises/static/media/picture.ba10dbbb.png"
+  },
+  {
+    "revision": "114977f4d948fc0405f489c6fee44d2b",
+    "url": "/platzi-master-frontend-exercises/static/media/portfolio-felipe-merchan.114977f4.png"
   },
   {
     "revision": "927008463175a6d000a2cfdab2c2955e",
