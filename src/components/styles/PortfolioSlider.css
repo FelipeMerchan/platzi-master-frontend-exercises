@@ -1,0 +1,31 @@
+.PortfolioSlider {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.PortfolioSlider__button {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.PortfolioSlider__button:focus {
+  outline: none;
+}
+
+.PortfolioSlider__button.left {
+  left: var(--space-2);
+  background-image: url('../../images/arrow-pink-left.svg');
+}
+
+.PortfolioSlider__button.right {
+  right: var(--space-2);
+  background-image: url('../../images/arrow-pink-right.svg');
+}

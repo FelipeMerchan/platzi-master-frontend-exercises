@@ -1,7 +1,9 @@
-import React from 'react'
+import styled from 'styled-components'
 
-function PortfolioSliderContent() {
-  return (
-    <div>Hola</div>
-  )
-}
+export const SliderContent = styled.div`
+  display: flex;
+  height: 100%;
+  width: ${props => props.width}px;
+  transform: translateX(-${props => props.translate}px);
+  transition: transform ease-out ${props => props.transition}s;
+`

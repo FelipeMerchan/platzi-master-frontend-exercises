@@ -1,0 +1,12 @@
+.AboutMe {
+  font-family: var(--font-4);
+  color: #07080d;
+}
+
+.AboutMe__title {
+  color: #c5345c;
+}
+
+.AboutMe__title>span {
+  color: #66615f;
+}
