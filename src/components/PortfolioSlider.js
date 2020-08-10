@@ -13,7 +13,6 @@ function PortfolioSlider(props) {
   const slider = useRef(null)
   const sliderContent = useRef(null)
 
-  let sliderWidth
   useEffect(function() {
     let sliderWidth = slider.current.offsetWidth * props.slides.length
     sliderContent.current.style.setProperty('width', `${sliderWidth}px`)
