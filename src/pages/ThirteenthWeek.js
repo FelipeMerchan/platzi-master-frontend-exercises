@@ -12,8 +12,6 @@ import PortfolioFooter from '../components/PortfolioFooter'
 import {getRandomColor} from '../utils/getRandomColor'
 
 import './styles/ThirteenthWeek.css'
-import imageSlider from '../images/image-slider.png'
-import imageSlider2 from '../images/image-slider-2.png'
 
 function ThirteenthWeek() {
   const [count, setCount] = useState(0)
@@ -36,17 +34,12 @@ function ThirteenthWeek() {
     }
   }
 
-  const images = [
-    imageSlider,
-    imageSlider2
-  ]
-
   return (
     <main className="u-wrapper bg-gray-gradient">
       <div className="wrapper">
         <PortfolioHeader onClick={handleClick} />
         <PortfolioHero />
-        <PortfolioSlider slides={images} />
+        <PortfolioSlider />
         <section className="AboutMeContainer">
           <AboutMe />
           <MyServices />

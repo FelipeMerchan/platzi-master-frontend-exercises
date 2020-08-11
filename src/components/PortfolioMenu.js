@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
 
 import './styles/PortfolioMenu.css'
 
@@ -27,16 +26,16 @@ function PortfolioMenu(props) {
     <nav className="PortfolioMenu">
       <ul>
         <li className="PortfolioMenu__item">
-          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} to="#" id="home">inicio</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} href="#home" id="home">inicio</a>
         </li>
         <li className="PortfolioMenu__item">
-          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} to="#" id="aboutMe">acerca</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} href="#aboutMe" id="aboutMe">acerca</a>
         </li>
         <li className="PortfolioMenu__item">
-          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} to="#" id="portfolio">portafolio</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} href="#portfolio" id="portfolio">portafolio</a>
         </li>
         <li className="PortfolioMenu__item">
-          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} to="#" id="contact">contacto</a>
+          <a role="button" onClick={ (event) => handleClick(event) } data-button={props.dataset} href="#contact" id="contact">contacto</a>
         </li>
       </ul>
     </nav>

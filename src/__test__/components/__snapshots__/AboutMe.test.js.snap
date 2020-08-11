@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe Snapshot Comprobar la UI del componente AboutMe 1`] = `
+<article
+  className="AboutMe"
+>
+  <h2
+    className="AboutMe__title"
+  >
+    quien
+    <br />
+     
+    <span>
+      soy
+    </span>
+  </h2>
+  <p
+    className="AboutMe__description"
+  >
+    Etiam lectus nulla, vestibulum vel luctus eu, ultricie Sit amet arcu. In a sem a nibh fringilla blandit. Ut u Metus turpis ultricies.
+  </p>
+  <a
+    className="AboutMe__link bg-gray-gradient"
+    href="#readMore"
+    id="readMore"
+  >
+    leer más
+  </a>
+</article>
+`;

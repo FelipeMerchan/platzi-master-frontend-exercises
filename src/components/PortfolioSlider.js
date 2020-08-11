@@ -3,8 +3,10 @@ import React, { useState, useRef, useEffect } from 'react'
 import { SliderContent } from './PortfolioSliderContent'
 import './styles/PortfolioSlider.css'
 import PortfolioSlide from './PortfolioSlide'
+import imageSlider from '../images/image-slider.png'
+import imageSlider2 from '../images/image-slider-2.png'
 
-function PortfolioSlider(props) {
+function PortfolioSlider() {
   const [state, setState] = useState({
     activeIndex: 0,
     translate: 0,
@@ -12,9 +14,13 @@ function PortfolioSlider(props) {
   })
   const slider = useRef(null)
   const sliderContent = useRef(null)
+  const images = [
+    imageSlider,
+    imageSlider2
+  ]
 
   useEffect(function() {
-    let sliderWidth = slider.current.offsetWidth * props.slides.length
+    let sliderWidth = slider.current.offsetWidth * images.length
     sliderContent.current.style.setProperty('width', `${sliderWidth}px`)
   })
 
@@ -24,8 +30,8 @@ function PortfolioSlider(props) {
     if (activeIndex === 0) {
       return setState({
         ...state,
-        translate: (props.slides.length - 1) * 1000,
-        activeIndex: props.slides.length - 1
+        translate: (images.length - 1) * 1000,
+        activeIndex: images.length - 1
       })
     }
 
@@ -37,7 +43,7 @@ function PortfolioSlider(props) {
   }
 
   const nextSlide = () => {
-    if (activeIndex === props.slides.length - 1) {
+    if (activeIndex === images.length - 1) {
       return setState({
         ...state,
         translate: 0,
@@ -60,7 +66,7 @@ function PortfolioSlider(props) {
         width='1000px'
         ref={sliderContent}
       >
-        {props.slides.map(slide =>
+        {images.map(slide =>
           <PortfolioSlide key={slide} content={slide} />
         )}
       </SliderContent>

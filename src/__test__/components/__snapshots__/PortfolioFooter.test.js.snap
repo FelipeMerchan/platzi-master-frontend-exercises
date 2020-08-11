@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioFooter Snapshot Comprobar la UI del componente PortfolioFooter 1`] = `
+<footer
+  className="PortfolioFooter"
+  id="footer"
+>
+  <nav
+    className="PortfolioMenu"
+  >
+    <ul>
+      <li
+        className="PortfolioMenu__item"
+      >
+        <a
+          data-button="footer"
+          href="#home"
+          id="home"
+          onClick={[Function]}
+          role="button"
+        >
+          inicio
+        </a>
+      </li>
+      <li
+        className="PortfolioMenu__item"
+      >
+        <a
+          data-button="footer"
+          href="#aboutMe"
+          id="aboutMe"
+          onClick={[Function]}
+          role="button"
+        >
+          acerca
+        </a>
+      </li>
+      <li
+        className="PortfolioMenu__item"
+      >
+        <a
+          data-button="footer"
+          href="#portfolio"
+          id="portfolio"
+          onClick={[Function]}
+          role="button"
+        >
+          portafolio
+        </a>
+      </li>
+      <li
+        className="PortfolioMenu__item"
+      >
+        <a
+          data-button="footer"
+          href="#contact"
+          id="contact"
+          onClick={[Function]}
+          role="button"
+        >
+          contacto
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <span>
+      Copyright 2010 
+      <strong>
+        - Felipe Merchan
+      </strong>
+       - Todos los derechos reservados
+    </span>
+  </div>
+</footer>
+`;

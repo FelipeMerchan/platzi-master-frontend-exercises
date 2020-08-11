@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialMedia Snapshot Comprobar la UI del componente SocialMedia 1`] = `
+<article
+  className="SocialMedia"
+>
+  <h2
+    className="SocialMedia__title"
+  >
+    también
+    <br />
+     
+    <span>
+      estoy en
+    </span>
+  </h2>
+  <a
+    href="https://www.facebook.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="Facebook"
+      className="SocialMedia__icon"
+      src="facebook.png"
+      width="30"
+    />
+    <strong
+      className="SocialMedia__url"
+    >
+      www.facebook.com/lorem
+    </strong>
+  </a>
+  <a
+    href="https://www.facebook.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="Facebook"
+      className="SocialMedia__icon"
+      src="digg.png"
+      width="30"
+    />
+    <strong
+      className="SocialMedia__url"
+    >
+      www.digg.com/user/lorem
+    </strong>
+  </a>
+  <a
+    href="https://www.facebook.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="Facebook"
+      className="SocialMedia__icon"
+      src="flickr.png"
+      width="30"
+    />
+    <strong
+      className="SocialMedia__url"
+    >
+      www.flickr.com/photos/lorem
+    </strong>
+  </a>
+  <a
+    href="https://www.facebook.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <img
+      alt="Facebook"
+      className="SocialMedia__icon"
+      src="twitter.png"
+      width="30"
+    />
+    <strong
+      className="SocialMedia__url"
+    >
+      www.twitter.com/lorem
+    </strong>
+  </a>
+</article>
+`;
