@@ -1,8 +1,10 @@
 .PortfolioMenu {
   display: inline-block;
-  padding: var(--space-2) 0;
+  height: 60px;
+  line-height: 60px;
   font-family: var(--font-4);
   font-weight: var(--extra-bold);
+  --darkColor: #001023;
 }
 
 .PortfolioMenu ul {
@@ -15,5 +17,7 @@
 }
 
 .PortfolioMenu__item>a {
-  color: #07080d;
+  display: inline-block;
+  height: inherit;
+  color: var(--darkColor);
 }

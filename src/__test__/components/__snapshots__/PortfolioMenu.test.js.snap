@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioMenu Snapshot Comprobar la UI del componente PortfolioMenu 1`] = `
+<nav
+  className="PortfolioMenu"
+>
+  <ul>
+    <li
+      className="PortfolioMenu__item"
+    >
+      <a
+        id="home"
+        onClick={[Function]}
+        role="button"
+        to="#"
+      >
+        inicio
+      </a>
+    </li>
+    <li
+      className="PortfolioMenu__item"
+    >
+      <a
+        id="aboutMe"
+        onClick={[Function]}
+        role="button"
+        to="#"
+      >
+        acerca
+      </a>
+    </li>
+    <li
+      className="PortfolioMenu__item"
+    >
+      <a
+        id="portfolio"
+        onClick={[Function]}
+        role="button"
+        to="#"
+      >
+        portafolio
+      </a>
+    </li>
+    <li
+      className="PortfolioMenu__item"
+    >
+      <a
+        id="contact"
+        onClick={[Function]}
+        role="button"
+        to="#"
+      >
+        contacto
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

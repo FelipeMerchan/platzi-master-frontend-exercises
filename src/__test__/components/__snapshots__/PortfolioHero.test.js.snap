@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioHero Snapshot Comprobar la UI del componente PortfolioHero 1`] = `
+<section
+  className="PortfolioHero"
+>
+  <figure
+    className="PortfolioHero__imageContainer"
+  >
+    <img
+      alt="Portafolio de Felipe Merchan"
+      className="PortfolioHero__image"
+      src="portfolio-felipe-merchan.png"
+      width="350"
+    />
+  </figure>
+  <h1
+    className="PortfolioHero__title"
+  >
+    Mira mis últimos diseños y proyectos. Oh, por cierto, 
+    <span>
+      ¡Bienvenido!
+    </span>
+  </h1>
+</section>
+`;

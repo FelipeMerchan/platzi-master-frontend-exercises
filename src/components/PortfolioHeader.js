@@ -2,10 +2,10 @@ import React from 'react'
 
 import PortfolioMenu from './PortfolioMenu'
 
-function PortfolioHeader() {
+function PortfolioHeader(props) {
   return (
-    <header className="text-right">
-      <PortfolioMenu />
+    <header className="text-right" id="header">
+      <PortfolioMenu onClick={props.onClick} dataset="nav" />
     </header>
   )
 }
