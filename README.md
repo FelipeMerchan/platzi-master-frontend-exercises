@@ -12,7 +12,8 @@ This site is a collection of all the projects that i have done for the Platzi Ma
 
 4. Finally, you to be able to run it: `npm run start`
 
-##Production
+## Production
+
 You can execute the following command:
 
     npm run build
