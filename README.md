@@ -20,7 +20,7 @@ This site is a collection of all the projects that i have done for the Platzi Ma
 
 ### Project Section
 
-![Project Section](https://github.com/FelipeMerchan/platzi-master-frontend-exercises/blob/master/src/images/preview-section.png)
+![Project Section](https://github.com/FelipeMerchan/platzi-master-frontend-exercises/blob/master/src/images/preview-section.jpg)
 
 ## Demo
 
