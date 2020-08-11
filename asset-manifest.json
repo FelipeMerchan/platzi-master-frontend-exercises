@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/platzi-master-frontend-exercises/static/css/main.b29f7546.chunk.css",
-    "main.js": "/platzi-master-frontend-exercises/static/js/main.25356740.chunk.js",
-    "main.js.map": "/platzi-master-frontend-exercises/static/js/main.25356740.chunk.js.map",
+    "main.css": "/platzi-master-frontend-exercises/static/css/main.5b4cae70.chunk.css",
+    "main.js": "/platzi-master-frontend-exercises/static/js/main.bd8ce311.chunk.js",
+    "main.js.map": "/platzi-master-frontend-exercises/static/js/main.bd8ce311.chunk.js.map",
     "runtime-main.js": "/platzi-master-frontend-exercises/static/js/runtime-main.f94e12dd.js",
     "runtime-main.js.map": "/platzi-master-frontend-exercises/static/js/runtime-main.f94e12dd.js.map",
-    "static/js/2.629a34da.chunk.js": "/platzi-master-frontend-exercises/static/js/2.629a34da.chunk.js",
-    "static/js/2.629a34da.chunk.js.map": "/platzi-master-frontend-exercises/static/js/2.629a34da.chunk.js.map",
+    "static/js/2.aa83b69d.chunk.js": "/platzi-master-frontend-exercises/static/js/2.aa83b69d.chunk.js",
+    "static/js/2.aa83b69d.chunk.js.map": "/platzi-master-frontend-exercises/static/js/2.aa83b69d.chunk.js.map",
     "index.html": "/platzi-master-frontend-exercises/index.html",
-    "precache-manifest.fc7333c2eb75e2f08d58b34baa62331e.js": "/platzi-master-frontend-exercises/precache-manifest.fc7333c2eb75e2f08d58b34baa62331e.js",
+    "precache-manifest.7e77def4529cbe13b5cc91ca08db7d99.js": "/platzi-master-frontend-exercises/precache-manifest.7e77def4529cbe13b5cc91ca08db7d99.js",
     "service-worker.js": "/platzi-master-frontend-exercises/service-worker.js",
-    "static/css/main.b29f7546.chunk.css.map": "/platzi-master-frontend-exercises/static/css/main.b29f7546.chunk.css.map",
-    "static/js/2.629a34da.chunk.js.LICENSE.txt": "/platzi-master-frontend-exercises/static/js/2.629a34da.chunk.js.LICENSE.txt",
+    "static/css/main.5b4cae70.chunk.css.map": "/platzi-master-frontend-exercises/static/css/main.5b4cae70.chunk.css.map",
+    "static/js/2.aa83b69d.chunk.js.LICENSE.txt": "/platzi-master-frontend-exercises/static/js/2.aa83b69d.chunk.js.LICENSE.txt",
     "static/media/analisis.png": "/platzi-master-frontend-exercises/static/media/analisis.22930274.png",
     "static/media/PortfolioSlider.css": "/platzi-master-frontend-exercises/static/media/arrow-pink-right.8ec9792c.svg",
     "static/media/Exercise.css": "/platzi-master-frontend-exercises/static/media/arrows.0384ff78.svg",
@@ -43,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f94e12dd.js",
-    "static/js/2.629a34da.chunk.js",
-    "static/css/main.b29f7546.chunk.css",
-    "static/js/main.25356740.chunk.js"
+    "static/js/2.aa83b69d.chunk.js",
+    "static/css/main.5b4cae70.chunk.css",
+    "static/js/main.bd8ce311.chunk.js"
   ]
 }
