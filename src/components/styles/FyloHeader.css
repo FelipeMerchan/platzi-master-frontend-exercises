@@ -1,0 +1,20 @@
+.FyloHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-block-start: var(--space-2);
+  font-family: var(--raleway);
+}
+
+.FyloMenu {
+  display: flex;
+}
+
+.FyloMenu>li {
+  margin-inline-start: var(--space-3);
+  list-style-type: none;
+}
+
+.FyloMenu__link {
+  font-size: 12px;
+  color: #ffffff;
+}

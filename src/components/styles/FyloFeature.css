@@ -1,0 +1,19 @@
+.FyloFeature {
+  font-family: var(--font-4);
+  color: #ffffff;
+}
+
+.FyloFeature__title {
+  margin-block-end: var(--space);
+  font-size: 18px;
+  font-family: var(--raleway);
+}
+
+.FyloFeature__description {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.FyloFeature__imageContainer {
+  margin-block-end: var(--space-4);
+}

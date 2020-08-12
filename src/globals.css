@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 :root {
   /* Colors */
@@ -15,11 +16,19 @@
   --primaryColorDark: #001023;
   --primaryColorDark-2: #061B3A;
 
+  --primaryColorFylo: hsl(217, 28%, 15%);
+  --primaryColorFylo-2: hsl(218, 28%, 13%);
+  --primaryColorFylo-3: hsl(216, 53%, 9%);
+  --primaryColorFylo-4: hsl(219, 30%, 18%);
+  --acentColorFylo: hsl(176, 68%, 64%);
+  --acentColorFylo-2: hsl(198, 60%, 50%);
+
   /* Typography */
   --font-1: 'Times New Roman', Times, serif;
   --font-2: Helvetica, sans-serif;
   --font-3: 'Lato', sans-serif;
   --font-4: 'Open Sans', sans-serif;
+  --raleway: 'Raleway', sans-serif;
 
   /* Typo bolds */
   --normal: 400;
@@ -241,6 +250,14 @@ figcaption {
 
 .bg-dark-blue {
   background-color: var(--primaryColorDark);
+}
+
+.bg-intro-fylo {
+  background-color: var(--primaryColorFylo);
+}
+
+.bg-main-fylo {
+  background-color: var(--primaryColorFylo-2);
 }
 
 .bg-gray-gradient {

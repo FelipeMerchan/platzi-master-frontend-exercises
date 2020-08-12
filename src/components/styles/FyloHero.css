@@ -1,0 +1,49 @@
+.FyloHero {
+  padding-block-start: var(--space-5);
+  text-align: center;
+  font-family: var(--font-4);
+  color: #ffffff;
+  background-color: var(--primaryColorFylo);
+}
+
+.FyloHero__imageContainer {
+  position: relative;
+  z-index: 2;
+}
+
+.FyloHero__image {
+  max-width: 90%;
+}
+
+.FyloHero>div {
+  position: relative;
+  z-index: 3;
+  padding: 0 var(--space-2);
+  border-block-end: 1px solid var(--primaryColorFylo-2);
+  background-color: var(--primaryColorFylo-2);
+}
+
+.FyloHero__title {
+  margin: var(--space-3) 0 var(--space-2);
+  font-family: var(--raleway);
+  font-size: 26px;
+  line-height: 1.4;
+}
+
+.FyloHero__description {
+  margin-bottom: var(--space-4);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.FyloHero__button {
+  display: inline-block;
+  height: 45px;
+  padding: 0 calc(var(--space) * 8);
+  border-radius: 25px;
+  line-height: 45px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: var(--bold);
+  background: linear-gradient(90deg, var(--acentColorFylo) 0%, var(--acentColorFylo-2) 100%);
+}

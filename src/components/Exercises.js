@@ -49,6 +49,13 @@ function Exercises() {
             link={`${process.env.PUBLIC_URL}/decima-tercera-semana`}
             alt="Página para un portafolio"
           />
+          <Exercise
+            image={thirteenthWeekPoster}
+            title="Semana: 14"
+            difficulty="Normal"
+            link={`${process.env.PUBLIC_URL}/decima-cuarta-semana`}
+            alt="Landing para Fylo"
+          />
         </div>
       </section>
     </div>

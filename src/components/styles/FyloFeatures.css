@@ -1,0 +1,7 @@
+.FyloFeatures {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-row-gap: calc(var(--space) * 10);
+  padding: calc(var(--space) * 10) 0;
+}
