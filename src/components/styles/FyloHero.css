@@ -15,15 +15,18 @@
   max-width: 90%;
 }
 
-.FyloHero>div {
-  position: relative;
-  z-index: 3;
+.FyloHero>div,
+.FyloHero__title {
   padding: 0 var(--space-2);
-  border-block-end: 1px solid var(--primaryColorFylo-2);
+}
+
+.FyloHero>div {
   background-color: var(--primaryColorFylo-2);
 }
 
 .FyloHero__title {
+  position: relative;
+  z-index: 3;
   margin: var(--space-3) 0 var(--space-2);
   font-family: var(--raleway);
   font-size: 26px;

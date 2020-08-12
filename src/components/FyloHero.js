@@ -9,10 +9,10 @@ function FyloHero() {
       <figure className="FyloHero__imageContainer">
         <img className="FyloHero__image" src={illustrationIntro} alt="Guarda todos tus archivos en un solo lugar" />
       </figure>
+      <h1 className="FyloHero__title">
+        All your files in one secure location, accesible anywhere.
+      </h1>
       <div>
-        <h1 className="FyloHero__title">
-          All your files in one secure location, accesible anywhere.
-        </h1>
         <p className="FyloHero__description">Fylo stores all your most important files in one secure location. 
           Access them wherever you need, share and collaborate with friends family, and co-workers.
         </p>

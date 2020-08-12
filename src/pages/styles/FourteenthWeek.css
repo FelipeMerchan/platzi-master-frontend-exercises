@@ -5,7 +5,7 @@
 
 .u-wrapper:first-child:after {
   position: absolute;
-  top: 220%;
+  top: 225%;
   right: 0;
   left: 0;
   content: '';
