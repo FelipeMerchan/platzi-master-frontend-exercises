@@ -1,0 +1,26 @@
+.Autor {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 25px 1fr;
+  grid-column-gap: var(--space);
+}
+
+.Author__photoContainer {
+  max-width: 100%;
+}
+
+.Author__photo {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.Author__name {
+  margin-bottom: calc(var(--space) / 2);
+  font-size: 10px;
+  font-weight: var(--bold);
+}
+
+.Author__jobTitle {
+  font-size: 6px;
+  opacity: .6;
+}

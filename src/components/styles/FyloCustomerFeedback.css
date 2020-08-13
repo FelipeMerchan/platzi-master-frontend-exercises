@@ -1,0 +1,26 @@
+.FyloCustomerFeedback {
+  position: relative;
+  padding: var(--space-2) var(--space-2);
+  border-radius: 4px;
+  font-family: var(--font-4);
+  color: #ffffff;
+  background-color: var(--primaryColorFylo-4);
+}
+
+.FyloCustomerFeedback:first-child:before {
+  content: '';
+  position: absolute;
+  top: -17px;
+  left: 2px;
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-image: url('../../images/fylo/bg-quotes.png');
+  background-size: contain;
+}
+
+.FyloCustomerFeedback__description {
+  margin-bottom: var(--space-2);
+  font-size: 10px;
+  line-height: 1.6;
+}

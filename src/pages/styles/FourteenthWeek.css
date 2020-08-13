@@ -1,11 +1,11 @@
-.u-wrapper:first-child {
+.u-wrapper.bg-intro-fylo {
   position: relative;
   border-block-end: 1px solid var(--primaryColorFylo);
 }
 
-.u-wrapper:first-child:after {
+.u-wrapper.bg-intro-fylo:after {
   position: absolute;
-  top: 225%;
+  top: 370%;
   right: 0;
   left: 0;
   content: '';
@@ -16,4 +16,36 @@
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 150%;
+}
+
+.FyloCustomerFeedbackList {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 280px);
+  grid-row-gap: var(--space-2);
+  padding: calc(var(--space) * 10) 0;
+}
+
+.FyloForm {
+  position: relative;
+  margin-block-end: -180px;
+}
+
+@media screen and (min-width: 768px) {
+  .u-wrapper.bg-intro-fylo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .u-wrapper.bg-intro-fylo>.wrapper {
+    flex: 1;
+  }
+
+  .u-wrapper.bg-intro-fylo:after {
+    top: 900%;
+    right: initial;
+    left: initial;
+    max-width: 1200px;
+    background-image: url('../../images/fylo/bg-curvy-desktop.svg');
+  }
 }

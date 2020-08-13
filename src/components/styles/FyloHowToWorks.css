@@ -1,10 +1,11 @@
 .FyloHowToWorks {
+  padding: var(--space-3) 0 var(--space-5);
   font-family: var(--font-4);
   color: #ffffff;
 }
 
 .FyloHowToWorks__imageContainer {
-  margin-block-end: var(--space-3);
+  margin-block-end: var(--space-4);
 }
 
 .FyloHowToWorks__image {

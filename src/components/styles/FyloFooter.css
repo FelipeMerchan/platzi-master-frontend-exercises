@@ -1,0 +1,68 @@
+.FyloFooter {
+  padding: calc(var(--space) * 25) 0 var(--space-4);
+  font-family: var(--font-4);
+  color: #ffffff;
+  background-color: var(--primaryColorFylo-3);
+}
+
+.FyloFooter>div {
+  display: grid;
+  grid-row-gap: var(--space-2);
+}
+
+.FyloFooter__logoContainer {
+  margin-block-end: vaR(--space-3);
+}
+
+.FyloFooter__location,
+.FyloFooter__contact-information>div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: var(--space-2);
+}
+
+.FyloFooter__contact-information>div {
+  margin-block-end: var(--space-2);
+}
+
+.FyloFooter__location>img,
+.FyloFooter__contact-information>div>img {
+  margin-block-start: 5px;
+}
+
+.FyloFooter__location>p,
+.FyloFooter__contact-information>div>span {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.FyloFooter ul:nth-of-type(1) {
+  padding-block-start: var(--space-3);
+}
+
+.FyloFooter li {
+  margin-block-end: var(--space);
+  list-style: none;
+}
+
+.FyloFooter a {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.FyloFooter__social-media {
+  display: flex;
+  justify-content: center;
+  margin-block-start: var(--space-5);
+}
+
+.FyloFooter__social-media figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  margin-inline-start: var(--space);
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+}

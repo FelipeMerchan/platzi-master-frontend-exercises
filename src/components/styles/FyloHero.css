@@ -1,5 +1,10 @@
 .FyloHero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding-block-start: var(--space-5);
+  margin-block-start: -5px;
+  margin-block-end: -5px;
   text-align: center;
   font-family: var(--font-4);
   color: #ffffff;
@@ -21,12 +26,16 @@
 }
 
 .FyloHero>div {
+  position: relative;
+  z-index: 2;
+  width: 100%;
   background-color: var(--primaryColorFylo-2);
 }
 
 .FyloHero__title {
   position: relative;
   z-index: 3;
+  max-width: 490px;
   margin: var(--space-3) 0 var(--space-2);
   font-family: var(--raleway);
   font-size: 26px;
@@ -34,7 +43,8 @@
 }
 
 .FyloHero__description {
-  margin-bottom: var(--space-4);
+  max-width: 490px;
+  margin: 0 auto var(--space-4);
   font-size: 14px;
   line-height: 1.4;
 }
@@ -44,9 +54,16 @@
   height: 45px;
   padding: 0 calc(var(--space) * 8);
   border-radius: 25px;
+  font-family: var(--raleway);
   line-height: 45px;
   color: #ffffff;
   font-size: 14px;
   font-weight: var(--bold);
   background: linear-gradient(90deg, var(--acentColorFylo) 0%, var(--acentColorFylo-2) 100%);
+}
+
+@media screen and (min-width: 768px) {
+  .FyloHero>div {
+    background-color: transparent;
+  }
 }

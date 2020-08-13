@@ -7,7 +7,7 @@ function FyloHero() {
   return (
     <section className="FyloHero">
       <figure className="FyloHero__imageContainer">
-        <img className="FyloHero__image" src={illustrationIntro} alt="Guarda todos tus archivos en un solo lugar" />
+        <img className="FyloHero__image" width="640" src={illustrationIntro} alt="Guarda todos tus archivos en un solo lugar" />
       </figure>
       <h1 className="FyloHero__title">
         All your files in one secure location, accesible anywhere.

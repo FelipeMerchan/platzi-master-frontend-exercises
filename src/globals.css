@@ -260,6 +260,10 @@ figcaption {
   background-color: var(--primaryColorFylo-2);
 }
 
+.bg-footer-fylo {
+  background-color: var(--primaryColorFylo-3);
+}
+
 .bg-gray-gradient {
   background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(220, 220, 220, 1) 100%);
   background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(220, 220, 220, 1) 100%);
