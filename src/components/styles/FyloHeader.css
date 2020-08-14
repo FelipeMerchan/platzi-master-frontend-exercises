@@ -1,6 +1,7 @@
 .FyloHeader {
   display: flex;
   justify-content: space-between;
+  height: 50px;
   padding-block-start: var(--space-2);
   font-family: var(--raleway);
 }

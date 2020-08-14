@@ -1,5 +1,5 @@
 .FyloForm {
-  margin-top: var(--space-5);
+  margin-block-start: var(--space-5);
   padding: var(--space-4) var(--space-3);
   border-radius: 10px;
   font-family: var(--raleway);
@@ -47,4 +47,34 @@
   font-size: 14px;
   font-weight: var(--bold);
   background: linear-gradient(90deg, var(--acentColorFylo) 0%, var(--acentColorFylo-2) 100%);
+}
+
+@media screen and (min-width: 768px) {
+  .FyloForm {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: var(--space-4) calc(var(--space) * 7) var(--space-3);
+  }
+
+  .FyloForm__title {
+    font-size: 26px;
+  }
+
+  .FyloForm>form {
+    display: flex;
+  }
+
+  .FyloForm__input {
+    width: 70%;
+    margin: 0 var(--space-2) 0 0;
+  }
+
+  ::placeholder {
+    font-size: 12px;
+  }
+
+  .FyloForm__button {
+    width: 30%;
+    padding: 0 calc(var(--space) * 2);
+  }
 }

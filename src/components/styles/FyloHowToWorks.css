@@ -5,6 +5,7 @@
 }
 
 .FyloHowToWorks__imageContainer {
+  text-align: center;
   margin-block-end: var(--space-4);
 }
 
@@ -14,8 +15,9 @@
 
 .FyloHowToWorks__title {
   margin-block-end: var(--space-2);
-  font-size: 18px;
   font-family: var(--raleway);
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .FyloHowToWorks__description {
@@ -43,4 +45,24 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: bottom;
+}
+
+@media screen and (min-width: 768px) {
+  .FyloHowToWorks {
+    display: flex;
+    align-items: center;
+  }
+
+  .FyloHowToWorks__imageContainer {
+    width: 50%;
+  }
+
+  .FyloHowToWorks>div {
+    width: 50%;
+  }
+
+  .FyloHowToWorks__title {
+    font-size: 32px;
+    max-width: 350px;
+  }
 }

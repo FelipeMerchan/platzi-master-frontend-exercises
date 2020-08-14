@@ -10,7 +10,7 @@
 
 @media screen and (min-width: 768px) {
   .FyloFeatures {
-    grid-template-columns: repeat(2, 350px);
+    grid-template-columns: repeat(2, minmax(250px, 350px));
     grid-column-gap: calc(var(--space) * 10);
   }
 }

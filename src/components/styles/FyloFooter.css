@@ -66,3 +66,24 @@
   border-radius: 50%;
   border: 1px solid #ffffff;
 }
+
+@media screen and (min-width: 768px) {
+  .FyloFooter {
+    padding: calc(var(--space) * 17) 0 var(--space-4);
+  }
+
+  .FyloFooter>div {
+    grid-template-columns: 32% 21% repeat(2, 10%) 11%;
+    grid-column-gap: 4%;
+    grid-row-gap: 0;
+  }
+
+  .FyloFooter ul:nth-of-type(1) {
+    padding-block-start: 0;
+  }
+
+  .FyloFooter__social-media {
+    justify-content: flex-end;
+    margin-block-start: 0;
+  }
+}
